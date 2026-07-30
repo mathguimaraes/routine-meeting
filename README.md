@@ -12,10 +12,6 @@
 
 ---
 
-> **🚧 Beta.** Routine Meeting works and I use it daily, but it's early — expect rough edges, and please [report anything odd](https://github.com/mathguimaraes/routine-meeting/issues). Best suited for people comfortable with that: developers, early adopters, anyone who wants to try it and doesn't need it to be perfect on day one.
-
----
-
 ## The problem
 
 You join a call, and the second it gets interesting you have to choose: pay attention, or write it down. Miss the meeting's start scrambling for a notes app. Forget to hit record. Get to Friday with six meetings' worth of decisions and action items living nowhere but your memory.
