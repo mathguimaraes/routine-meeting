@@ -37,6 +37,14 @@ You bring your own [Gemini API key](https://aistudio.google.com/apikey) for the 
 - **No accounts, no subscription.** It's a native app, not a SaaS wrapper. You own the DMG, you own your data.
 - **Built for how meetings actually go.** False starts (music, a stray voice message) don't turn into phantom recordings; a dropped mic mid-call doesn't silently lose half your transcript.
 
+## How it compares
+
+Most meeting assistants (Fireflies, Otter, Fathom) work by having a bot join your call and send the audio to their servers. Routine Meeting doesn't use a bot or a server — it detects the mic + system-audio pattern of a real conversation locally, records and transcribes on-device, and only sends a text transcript out if you turn on cloud summaries. Bring your own Gemini key, or skip the cloud entirely with a local model. No account, no subscription.
+
+**What Routine Meeting doesn't have (yet):** cross-meeting search or a long-term searchable knowledge base — right now you get a daily rollup, not a database. No CRM/Slack/ATS/dialer integrations. No enterprise compliance certifications (SOC 2, HIPAA, GDPR). macOS only — no Windows or mobile.
+
+If you need any of those today, a platform like Fireflies is probably the better fit. If what you want is something that never leaves your Mac and doesn't need a bot in your calls, that's the gap this fills.
+
 ## Install
 
 1. Download the latest `RoutineMeeting.dmg` from [Releases](https://github.com/mathguimaraes/routine-meeting/releases/latest).
@@ -51,6 +59,8 @@ Routine Meeting checks for updates automatically (via [Sparkle](https://sparkle-
 ## Privacy
 
 Audio and transcripts stay on your Mac. Nothing is sent anywhere unless you turn on a cloud AI provider — and even then, only the transcript text goes out, never raw audio.
+
+The app also sends one anonymous ping per day (a random ID with no meeting content, name, or email) so I can see rough usage. It's on by default; turn it off anytime in Settings → Privacy with no other change in behavior.
 
 ## Feedback / Issues
 
