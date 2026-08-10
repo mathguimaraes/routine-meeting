@@ -37,13 +37,25 @@ You bring your own [Gemini API key](https://aistudio.google.com/apikey) for the 
 - **No accounts, no subscription.** It's a native app, not a SaaS wrapper. You own the DMG, you own your data.
 - **Built for how meetings actually go.** False starts (music, a stray voice message) don't turn into phantom recordings; a dropped mic mid-call doesn't silently lose half your transcript.
 
-## How it compares
+## How Routine Meeting is different
 
-Most meeting assistants (Fireflies, Otter, Fathom) work by having a bot join your call and send the audio to their servers. Routine Meeting doesn't use a bot or a server — it detects the mic + system-audio pattern of a real conversation locally, records and transcribes on-device, and only sends a text transcript out if you turn on cloud summaries. Bring your own Gemini key, or skip the cloud entirely with a local model. No account, no subscription.
+Most meeting assistants, whether they use a visible bot (Fireflies, Otter) or "botless" capture (Fellow, Fathom), still send your recording and transcript to their servers for processing. Routine Meeting takes a different approach: everything happens on your Mac.
 
-**What Routine Meeting doesn't have (yet):** cross-meeting search or a long-term searchable knowledge base — right now you get a daily rollup, not a database. No CRM/Slack/ATS/dialer integrations. No enterprise compliance certifications (SOC 2, HIPAA, GDPR). macOS only — no Windows or mobile.
+- **Nothing leaves your device.** Recording and transcription run entirely on-device. This is true even compared to tools that market themselves as "botless," since botless just means no visible participant joins the call, not that your data stays local. Unless you explicitly enable cloud AI summaries, Routine Meeting never uploads anything.
+- **Works across every app, automatically.** Routine Meeting detects meetings by listening for the mic + system-audio pattern of a real conversation, not by joining as a participant or hooking into a specific app's API. That means Google Meet, Zoom, Teams, Webex, Slack huddles, Discord, FaceTime, or a phone call relayed through your Mac all work the same way, with zero per-app setup.
+- **Bring your own key, or skip the cloud entirely.** AI summaries use your own Gemini API key (the free tier covers personal use), or you can run a fully local model with no key and no cloud calls at all.
+- **No account, no subscription.** Routine Meeting is free and doesn't ask you to sign up for anything.
 
-If you need any of those today, a platform like Fireflies is probably the better fit. If what you want is something that never leaves your Mac and doesn't need a bot in your calls, that's the gap this fills.
+### What we don't have (yet)
+
+To be upfront: Routine Meeting is a solo-built macOS app, not a funded platform. A few things Fireflies, Fellow, and similar tools offer that Routine Meeting doesn't:
+
+- Cross-meeting search or a long-term searchable knowledge base (currently limited to a daily rollup)
+- Integrations with CRMs, Slack, ATS tools, or dialers
+- Enterprise compliance certifications (SOC 2, HIPAA, GDPR)
+- Windows or mobile support
+
+If you need any of those today, a platform like Fireflies or Fellow is probably the better fit, especially for regulated industries where those certifications matter. If what you want is something that never leaves your Mac and doesn't need a bot (or a cloud account) to work, that's exactly the gap Routine Meeting fills.
 
 ## Install
 
