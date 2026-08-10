@@ -3,13 +3,22 @@
     <channel>
         <title>Routine Meeting</title>
         <item>
+            <title>1.8</title>
+            <pubDate>Mon, 10 Aug 2026 14:52:36 -0300</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/mathguimaraes/routine-meeting/releases/download/v1.8/RoutineMeeting.dmg" length="65071848" type="application/octet-stream" sparkle:edSignature="DGVjA7RalUodZKUU41hcU0f2jj8Yk8IsW9kz9T6FtSRwE9iullbZyZRtQ2fR16/4oUn7CCcJak4LmuZzaUxqDA=="/>
+        </item>
+        <item>
             <title>1.7</title>
             <pubDate>Thu, 30 Jul 2026 14:05:03 -0300</pubDate>
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/mathguimaraes/routine-meeting/releases/download/v1.7/RoutineMeeting.dmg" length="64439497" type="application/octet-stream" sparkle:edSignature="Ddh0MZIgrZsHtRFW093DtgzbWi9D8aqAhHZSvslxPUUD1bM7ecHqolJh3eYXbJCtafX4kk8uEz3jFyJXfth3Bw=="/>
+            <enclosure url="https://github.com/mathguimaraes/routine-meeting/releases/download/v1.7/RoutineMeeting.dmg" length="64409763" type="application/octet-stream" sparkle:edSignature="Uqczuj4Ohb2Zy68xzrV00UFJCnzKVzwIz2slIy3xQY4pF+JC+YWojwhnQAsWDP81MWRQUiMTPMV9gESFROTWAg=="/>
         </item>
         <item>
             <title>1.6</title>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/mathguimaraes/routine-meeting/releases/download/v1.6/RoutineMeeting.dmg" length="64439491" type="application/octet-stream" sparkle:edSignature="p85I9fx5SizruLQSaOeSDq2SIkD88RZsl5FVcQLHbj4kvP+cI/Ub0aSZQHtxJ2g+EbLJnQ95b5cAd08eGYMcBg=="/>
-        </item>
-        <item>
-            <title>1.5</title>
-            <pubDate>Wed, 22 Jul 2026 18:01:39 -0300</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/mathguimaraes/routine-meeting/releases/download/v1.5/RoutineMeeting.dmg" length="64591766" type="application/octet-stream" sparkle:edSignature="IKZLYsUTapPa7IybqfL44KRIDWjRW/9psLE0pDLCP2hxBzutcAv2isxWdRee8g5onJW804tXDgZNgZGE8mb+Dw=="/>
         </item>
     </channel>
 </rss>
