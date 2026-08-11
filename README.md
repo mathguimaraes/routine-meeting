@@ -8,6 +8,15 @@
 
 [Download for macOS](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+[![pt--br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.pt-BR.md)
+[![ja](https://img.shields.io/badge/lang-ja-blue.svg)](README.ja.md)
+[![de](https://img.shields.io/badge/lang-de-orange.svg)](README.de.md)
+[![fr](https://img.shields.io/badge/lang-fr-lightgrey.svg)](README.fr.md)
+[![ko](https://img.shields.io/badge/lang-ko-blueviolet.svg)](README.ko.md)
+[![zh--cn](https://img.shields.io/badge/lang-zh--cn-critical.svg)](README.zh-CN.md)
+
 </div>
 
 ---
