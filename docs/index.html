@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Routine Meeting — Local, Automatic Meeting Recorder for macOS</title>
+  <meta name="title" content="Routine Meeting — Local, Automatic Meeting Recorder for macOS" />
+  <meta name="description"
+    content="Routine Meeting detects meetings automatically in any app (Zoom, Meet, Teams, Slack, Discord, FaceTime, and more), records and transcribes entirely on-device, and turns every call into a summary and action items. No bot, no server, no account. Free for macOS." />
+  <meta name="keywords"
+    content="meeting recorder, automatic meeting recorder mac, local transcription, on-device transcription, macOS meeting notes, AI meeting summary, privacy first meeting recorder, no bot meeting recorder, WhisperKit, Zoom recorder mac, Google Meet recorder mac, offline transcription mac" />
+  <meta name="author" content="Matheus Guimarães" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://mathguimaraes.github.io/routine-meeting/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mathguimaraes.github.io/routine-meeting/" />
+  <meta property="og:title" content="Routine Meeting — Local, Automatic Meeting Recorder for macOS" />
+  <meta property="og:description"
+    content="Detects meetings automatically in any app, records and transcribes entirely on-device, and turns every call into a summary and action items. No bot, no server, no account." />
+  <meta property="og:image" content="https://mathguimaraes.github.io/routine-meeting/icon.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta property="og:image:alt" content="Routine Meeting app icon" />
+  <meta property="og:site_name" content="Routine Meeting" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://mathguimaraes.github.io/routine-meeting/" />
+  <meta name="twitter:title" content="Routine Meeting — Local, Automatic Meeting Recorder for macOS" />
+  <meta name="twitter:description"
+    content="Detects meetings automatically in any app, records and transcribes entirely on-device. No bot, no server, no account." />
+  <meta name="twitter:image" content="https://mathguimaraes.github.io/routine-meeting/icon.png" />
+  <meta name="theme-color" content="#8b5cf6" />
+  <link rel="icon" type="image/png" href="icon.png" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Routine Meeting",
+    "description": "Auto-detecting meeting recorder for macOS. Records, transcribes, and summarizes locally — no bot, no server, no account.",
+    "url": "https://mathguimaraes.github.io/routine-meeting/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "macOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Matheus Guimarães",
+      "url": "https://github.com/mathguimaraes"
+    },
+    "downloadUrl": "https://github.com/mathguimaraes/routine-meeting/releases/latest",
+    "softwareHelp": "https://github.com/mathguimaraes/routine-meeting",
+    "featureList": [
+      "Automatic app-agnostic meeting detection",
+      "100% on-device recording and transcription",
+      "Speaker-split mic vs. system audio",
+      "AI summaries and action items",
+      "Daily recap with morning digest notification",
+      "Bring-your-own-key or fully local AI",
+      "No account, no subscription"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <img src="icon.png" alt="Routine Meeting" />
+        Routine Meeting
+      </div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#compare">Comparison</a>
+        <a href="#install">Install</a>
+        <a href="#privacy">Privacy</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting">GitHub</a>
+      </div>
+      <a class="nav-cta" href="https://github.com/mathguimaraes/routine-meeting/releases/latest">Download</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <img class="hero-icon" src="icon.png" alt="Routine Meeting icon" />
+    <h1>Meetings happen.<br /><span class="accent-text">Notes shouldn't require you to take them.</span></h1>
+    <p class="sub">Routine Meeting sits quietly in your menu bar, detects meetings in any app, records and
+      transcribes entirely on your Mac, and hands you a summary — automatically.</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="https://github.com/mathguimaraes/routine-meeting/releases/latest">
+        ⌘ Download for macOS
+      </a>
+      <a class="btn-secondary" href="https://github.com/mathguimaraes/routine-meeting">
+        View on GitHub
+      </a>
+    </div>
+    <p class="hero-meta">Free · Apple Silicon · macOS 13+ · No account required</p>
+  </header>
+
+  <section id="features">
+    <div class="section-inner">
+      <span class="section-label">What it does</span>
+      <h2>It handles the whole thing without being asked</h2>
+      <p class="section-lead">No button to remember, no app-specific setup, no "oh no, was this being recorded"
+        moment.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">🎙️</div>
+          <h3>Detects meetings automatically</h3>
+          <p>Listens for the mic + system-audio pattern of a real conversation — works the same in Google Meet,
+            Zoom, Teams, Webex, Slack huddles, Discord, FaceTime, WhatsApp calls, or a relayed phone call.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔒</div>
+          <h3>Transcribes entirely on-device</h3>
+          <p>WhisperKit runs on the Apple Silicon Neural Engine. Audio never leaves your Mac unless you explicitly
+            turn on cloud summaries.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🗣️</div>
+          <h3>Knows who said what</h3>
+          <p>Mic and system audio are captured and split separately, so summaries and insights are attributed to
+            the right person.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">✅</div>
+          <h3>Turns talk into action</h3>
+          <p>A title, a bullet summary, action items, and optionally an honest read on how the conversation went —
+            whether it was a 1:1, a client call, or a design review.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">☀️</div>
+          <h3>Morning digest</h3>
+          <p>A notification with yesterday's recap and open tasks, generated automatically a few minutes after
+            your Mac wakes.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔑</div>
+          <h3>Bring your own key, or skip the cloud</h3>
+          <p>Use your own free-tier Gemini API key for AI summaries, or run a fully local model with no key and no
+            cloud calls at all.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="section-inner">
+      <span class="section-label">How it's different</span>
+      <h2>No bot. No server. Everything on your Mac.</h2>
+      <p class="section-lead">Most meeting assistants, whether they use a visible bot (Fireflies, Otter) or
+        "botless" capture (Fellow, Fathom), still send your recording and transcript to their servers for
+        processing.</p>
+
+      <div class="compare-wrap">
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>Nothing leaves your device</strong>
+            <span>Recording and transcription run entirely on-device — true even compared to "botless" tools,
+              since botless just means no visible participant joins the call, not that your data stays
+              local.</span>
+          </div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>Works across every app, automatically</strong>
+            <span>Detects the mic + system-audio pattern of a real conversation instead of joining as a
+              participant or hooking into a specific app's API.</span>
+          </div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>Bring your own key, or skip the cloud entirely</strong>
+            <span>Your own Gemini API key, or a fully local model with no key and no cloud calls at all.</span>
+          </div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>No account, no subscription</strong>
+            <span>Free, and doesn't ask you to sign up for anything.</span>
+          </div>
+        </div>
+
+        <div class="not-have">
+          <h4>WHAT ROUTINE MEETING DOESN'T HAVE (YET)</h4>
+          <ul>
+            <li>Cross-meeting search or a long-term knowledge base — currently a daily rollup</li>
+            <li>Integrations with CRMs, Slack, ATS tools, or dialers</li>
+            <li>Enterprise compliance certifications (SOC 2, HIPAA, GDPR)</li>
+            <li>Windows or mobile support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="section-inner">
+      <span class="section-label">Getting started</span>
+      <h2>Install in under a minute</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <p><strong>Download</strong> the latest <code>RoutineMeeting.dmg</code> from <a
+              href="https://github.com/mathguimaraes/routine-meeting/releases/latest"
+              style="color: var(--accent)">Releases</a>.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <p><strong>Open the DMG</strong> and drag Routine Meeting into Applications.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <p><strong>Launch it.</strong> A short setup guide walks you through each permission — why it's needed,
+            then the system prompt — and lets you add a Gemini key or skip to on-device mode.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <p><strong>That's it.</strong> It runs quietly in your menu bar from then on — join a call, and it takes
+            care of the rest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <div class="section-inner">
+      <span class="section-label">Privacy</span>
+      <h2>Local-first, by construction</h2>
+      <div class="privacy-box">
+        <div class="privacy-icon">🛡️</div>
+        <div>
+          <p style="margin-bottom: 10px;">Audio and transcripts stay on your Mac. Nothing is sent anywhere unless
+            you turn on a cloud AI provider — and even then, only the transcript text goes out, never raw audio.
+          </p>
+          <p style="color: var(--text-secondary); font-size: 14px;">The app also sends one anonymous ping per day
+            (a random ID with no meeting content, name, or email) so usage can be tracked in aggregate. On by
+            default; turn it off anytime in Settings → Privacy with no other change in behavior.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-note">© 2026 Routine Meeting. Free and open source.</div>
+        <div class="lang-switcher">
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.md">EN</a>
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.es.md">ES</a>
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.pt-BR.md">PT-BR</a>
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.de.md">DE</a>
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.fr.md">FR</a>
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.ja.md">JA</a>
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.ko.md">KO</a>
+          <a href="https://github.com/mathguimaraes/routine-meeting/blob/main/README.zh-CN.md">中文</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/mathguimaraes/routine-meeting">GitHub</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting/releases/latest">Releases</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting/issues">Feedback</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
