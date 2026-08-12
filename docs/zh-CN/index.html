@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Routine Meeting — macOS 本地自动会议录制工具</title>
+  <meta name="title" content="Routine Meeting — macOS 本地自动会议录制工具" />
+  <meta name="description"
+    content="Routine Meeting 能在任何应用(Zoom、Meet、Teams、Slack、Discord、FaceTime 等)中自动检测会议,完全在设备本地录音和转录,并把每次通话变成摘要和行动事项。无需机器人,无需服务器,无需账号。macOS 免费使用。" />
+  <meta name="keywords"
+    content="会议录音, mac 自动会议录音, 本地转录, 设备端转录, macOS 会议笔记, AI 会议摘要, 无机器人会议录音, WhisperKit, Zoom 录音 mac, Google Meet 录音 mac, 离线转录 mac" />
+  <meta name="author" content="Matheus Guimarães" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://mathguimaraes.github.io/routine-meeting/zh-CN/" />
+  <link rel="alternate" hreflang="en" href="https://mathguimaraes.github.io/routine-meeting/" />
+  <link rel="alternate" hreflang="es" href="https://mathguimaraes.github.io/routine-meeting/es/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://mathguimaraes.github.io/routine-meeting/pt-BR/" />
+  <link rel="alternate" hreflang="de" href="https://mathguimaraes.github.io/routine-meeting/de/" />
+  <link rel="alternate" hreflang="fr" href="https://mathguimaraes.github.io/routine-meeting/fr/" />
+  <link rel="alternate" hreflang="ja" href="https://mathguimaraes.github.io/routine-meeting/ja/" />
+  <link rel="alternate" hreflang="ko" href="https://mathguimaraes.github.io/routine-meeting/ko/" />
+  <link rel="alternate" hreflang="zh-CN" href="https://mathguimaraes.github.io/routine-meeting/zh-CN/" />
+  <link rel="alternate" hreflang="x-default" href="https://mathguimaraes.github.io/routine-meeting/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mathguimaraes.github.io/routine-meeting/zh-CN/" />
+  <meta property="og:title" content="Routine Meeting — macOS 本地自动会议录制工具" />
+  <meta property="og:description"
+    content="在任何应用中自动检测会议,完全在设备本地录音和转录,把每次通话变成摘要和待办事项。无需机器人,无需服务器,无需账号。" />
+  <meta property="og:image" content="https://mathguimaraes.github.io/routine-meeting/icon.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta property="og:image:alt" content="Routine Meeting 图标" />
+  <meta property="og:site_name" content="Routine Meeting" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://mathguimaraes.github.io/routine-meeting/zh-CN/" />
+  <meta name="twitter:title" content="Routine Meeting — macOS 本地自动会议录制工具" />
+  <meta name="twitter:description"
+    content="在任何应用中自动检测会议,完全在设备本地录音和转录。无需机器人,无需服务器,无需账号。" />
+  <meta name="twitter:image" content="https://mathguimaraes.github.io/routine-meeting/icon.png" />
+  <meta name="theme-color" content="#8b5cf6" />
+  <link rel="icon" type="image/png" href="../icon.png" />
+  <link rel="apple-touch-icon" href="../icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Routine Meeting",
+    "description": "macOS 自动检测会议录制工具。本地录音、转录和摘要生成 — 无需机器人,无需服务器,无需账号。",
+    "url": "https://mathguimaraes.github.io/routine-meeting/zh-CN/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "macOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Matheus Guimarães",
+      "url": "https://github.com/mathguimaraes"
+    },
+    "downloadUrl": "https://github.com/mathguimaraes/routine-meeting/releases/latest",
+    "softwareHelp": "https://github.com/mathguimaraes/routine-meeting",
+    "featureList": [
+      "自动检测会议,不限应用",
+      "100% 本地录音与转录",
+      "麦克风与系统音频分离采集",
+      "AI 摘要与行动事项",
+      "早晨通知的每日汇总",
+      "使用自己的密钥或完全本地化 AI",
+      "无需账号,无需订阅"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <img src="../icon.png" alt="Routine Meeting" />
+        Routine Meeting
+      </div>
+      <div class="nav-links">
+        <a href="#features">功能</a>
+        <a href="#compare">对比</a>
+        <a href="#install">安装</a>
+        <a href="#privacy">隐私</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting">GitHub</a>
+      </div>
+      <a class="nav-cta" href="https://github.com/mathguimaraes/routine-meeting/releases/latest">下载</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <img class="hero-icon" src="../icon.png" alt="Routine Meeting 图标" />
+    <h1>会议总会发生。<br /><span class="accent-text">记笔记不该是你的活儿。</span></h1>
+    <p class="sub">Routine Meeting 安静地待在你的菜单栏,在任何应用中检测会议,在你的 Mac 上完成录音和转录,并自动为你生成摘要。</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="https://github.com/mathguimaraes/routine-meeting/releases/latest">
+        ⌘ 下载 macOS 版
+      </a>
+      <a class="btn-secondary" href="https://github.com/mathguimaraes/routine-meeting">
+        在 GitHub 上查看
+      </a>
+    </div>
+    <p class="hero-meta">免费 · Apple Silicon · macOS 13 及以上 · 无需账号</p>
+  </header>
+
+  <section id="features">
+    <div class="section-inner">
+      <span class="section-label">它能做什么</span>
+      <h2>不用你开口,它就把一切都处理好了</h2>
+      <p class="section-lead">不用记着按哪个按钮,不需要针对每个应用单独设置,也不会有"刚才是不是在录音"这种不安时刻。</p>
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">🎙️</div>
+          <h3>自动检测会议</h3>
+          <p>监听真实对话特有的麦克风+系统音频模式 — 在 Google Meet、Zoom、Teams、Webex、Slack 小组通话、Discord、FaceTime、WhatsApp 通话或转接电话中都能一样运作。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔒</div>
+          <h3>完全在设备本地转录</h3>
+          <p>WhisperKit 运行在 Apple Silicon 的神经网络引擎上。除非你明确开启云端摘要,否则音频绝不会离开你的 Mac。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🗣️</div>
+          <h3>分得清谁说了什么</h3>
+          <p>麦克风和系统音频分开采集并分离,因此摘要和洞察能准确归属到正确的人。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">✅</div>
+          <h3>把对话变成行动</h3>
+          <p>标题、要点摘要、行动事项,还可以选择获得一段诚实的反馈,了解这次对话(无论是一对一、客户电话还是设计评审)进行得如何。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">☀️</div>
+          <h3>早晨简报</h3>
+          <p>在你的 Mac 唤醒几分钟后自动生成,包含昨天的回顾和未完成的任务的通知。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔑</div>
+          <h3>用自己的密钥,或彻底跳过云端</h3>
+          <p>AI 摘要可以使用你自己的免费 Gemini API 密钥,也可以运行完全本地化的模型,不需要密钥,也不产生任何云端调用。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="section-inner">
+      <span class="section-label">有何不同</span>
+      <h2>没有机器人。没有服务器。一切都在你的 Mac 上。</h2>
+      <p class="section-lead">大多数会议助手,不管是用可见的机器人(Fireflies、Otter)还是"无机器人"式采集(Fellow、Fathom),最终还是会把你的录音和转录发送到它们的服务器处理。</p>
+
+      <div class="compare-wrap">
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>什么都不会离开你的设备</strong>
+            <span>录音和转录完全在设备本地执行。即便和那些标榜"无机器人"的工具相比也是如此,因为"无机器人"只是说没有可见参与者加入通话,并不代表你的数据留在本地。</span>
+          </div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>自动适配所有应用</strong>
+            <span>通过监听真实对话特有的麦克风+系统音频模式来识别会议,而不是以参与者身份加入通话,也不依赖某个特定应用的 API。</span>
+          </div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>用自己的密钥,或彻底跳过云端</strong>
+            <span>使用你自己的 Gemini API 密钥,或运行不需要密钥、不产生云端调用的完全本地模型。</span>
+          </div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-check">✓</div>
+          <div class="compare-text">
+            <strong>无需账号,无需订阅</strong>
+            <span>完全免费,也不要求你注册任何东西。</span>
+          </div>
+        </div>
+
+        <div class="not-have">
+          <h4>ROUTINE MEETING 目前还没有的功能</h4>
+          <ul>
+            <li>跨会议搜索或长期知识库 — 目前仅限于每日汇总</li>
+            <li>与 CRM、Slack、招聘工具或拨号软件的集成</li>
+            <li>企业合规认证(SOC 2、HIPAA、GDPR)</li>
+            <li>Windows 或移动端支持</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="section-inner">
+      <span class="section-label">开始使用</span>
+      <h2>不到一分钟即可安装</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <p><strong>下载</strong> — 从 <a href="https://github.com/mathguimaraes/routine-meeting/releases/latest"
+              style="color: var(--accent)">Releases</a> 获取最新的 <code>RoutineMeeting.dmg</code>。</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <p><strong>打开 DMG</strong>,把 Routine Meeting 拖入应用程序文件夹。</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <p><strong>启动它。</strong>一个简短的设置向导会说明每项权限为什么需要,随后弹出系统提示,你可以添加 Gemini 密钥或跳过进入本地模式。</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <p><strong>就这样。</strong>之后它会安静地留在你的菜单栏 — 加入通话,剩下的交给它。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <div class="section-inner">
+      <span class="section-label">隐私</span>
+      <h2>从设计上就是本地优先</h2>
+      <div class="privacy-box">
+        <div class="privacy-icon">🛡️</div>
+        <div>
+          <p style="margin-bottom: 10px;">音频和转录内容都保留在你的 Mac 上。除非你开启云端 AI 服务商,否则不会向任何地方发送任何内容;即便开启了,发出去的也只有转录文本,绝不会是原始音频。</p>
+          <p style="color: var(--text-secondary); font-size: 14px;">这款应用每天还会发送一次匿名 ping(一个不含会议内容、姓名或邮箱的随机 ID),以便能以汇总的方式了解使用情况。默认开启,你可以随时在设置 → 隐私中关闭,不会影响其他任何功能。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-note">© 2026 Routine Meeting。免费开源。</div>
+        <div class="lang-switcher">
+          <a href="/routine-meeting/">EN</a>
+          <a href="/routine-meeting/es/">ES</a>
+          <a href="/routine-meeting/pt-BR/">PT-BR</a>
+          <a href="/routine-meeting/de/">DE</a>
+          <a href="/routine-meeting/fr/">FR</a>
+          <a href="/routine-meeting/ja/">JA</a>
+          <a href="/routine-meeting/ko/">KO</a>
+          <a href="/routine-meeting/zh-CN/">中文</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/mathguimaraes/routine-meeting">GitHub</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting/releases/latest">Releases</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting/issues">反馈</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
