@@ -6,7 +6,7 @@
 
 **会议总会发生，记笔记不该是你的活儿。**
 
-[下载 macOS 版](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
+[官网](https://mathguimaraes.github.io/routine-meeting/zh-CN/) · [下载 macOS 版](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)

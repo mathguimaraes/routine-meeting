@@ -6,7 +6,7 @@
 
 **회의는 일어난다. 메모는 당신의 일이 아니어야 한다.**
 
-[macOS용 다운로드](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
+[웹사이트](https://mathguimaraes.github.io/routine-meeting/ko/) · [macOS용 다운로드](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)

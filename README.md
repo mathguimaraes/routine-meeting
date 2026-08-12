@@ -6,7 +6,7 @@
 
 **Meetings happen. Notes shouldn't require you to take them.**
 
-[Download for macOS](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
+[Website](https://mathguimaraes.github.io/routine-meeting/) · [Download for macOS](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
