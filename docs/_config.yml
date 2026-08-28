@@ -1,0 +1,35 @@
+title: Routine Meeting
+description: >-
+  Engineering write-ups and release notes from building Routine Meeting, a
+  local-first, automatic meeting recorder for macOS.
+url: "https://mathguimaraes.github.io"
+baseurl: "/routine-meeting"
+author: Matheus Guimarães
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+  collections:
+    - posts
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

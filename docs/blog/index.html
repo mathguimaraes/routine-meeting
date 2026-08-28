@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blog
+description: Engineering write-ups from building Routine Meeting — real bugs, real fixes, no marketing gloss.
+permalink: /blog/
+---
+<div class="section-inner listing-inner">
+  <span class="section-label">Blog</span>
+  <h1>Notes from building Routine Meeting</h1>
+  <p class="section-lead">How the app actually works under the hood, including the bugs — written as they're found and fixed, not cleaned up after the fact.</p>
+
+  <div class="post-list">
+    {% assign posts = site.categories.blog | sort: 'date' | reverse %}
+    {% for post in posts %}
+    <a class="post-card" href="{{ post.url | relative_url }}">
+      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.description }}</p>
+    </a>
+    {% endfor %}
+    {% if posts.size == 0 %}
+    <p class="empty-note">Nothing here yet — check back soon.</p>
+    {% endif %}
+  </div>
+</div>

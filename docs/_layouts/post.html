@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% assign cat = page.categories | first %}
+<article class="post">
+  <div class="section-inner post-inner">
+    <a class="back-link" href="{{ cat | prepend: '/' | append: '/' | relative_url }}">← Back to {{ cat | capitalize }}</a>
+    <span class="post-category">{{ cat | capitalize }}</span>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">
+      {{ page.date | date: "%B %-d, %Y" }}{% if page.version %} · v{{ page.version }}{% endif %}
+    </p>
+    <div class="post-body">
+      {{ content }}
+    </div>
+  </div>
+</article>

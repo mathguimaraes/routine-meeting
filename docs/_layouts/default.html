@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting</title>
+  <meta name="title" content="{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting" />
+  <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}" />
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting" />
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_newlines }}" />
+  <meta property="og:image" content="{{ '/icon.png' | absolute_url }}" />
+  <meta property="og:site_name" content="Routine Meeting" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="{{ page.url | absolute_url }}" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description | strip_newlines }}" />
+  <meta name="twitter:image" content="{{ '/icon.png' | absolute_url }}" />
+  <meta name="theme-color" content="#8b5cf6" />
+
+  <link rel="icon" type="image/png" href="{{ '/icon.png' | relative_url }}" />
+  <link rel="apple-touch-icon" href="{{ '/icon.png' | relative_url }}" />
+  <link rel="alternate" type="application/atom+xml" title="Routine Meeting" href="{{ '/feed.xml' | absolute_url }}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/blog.css' | relative_url }}" />
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/icon.png' | relative_url }}" alt="Routine Meeting" />
+        Routine Meeting
+      </a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}#features">Features</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/updates/' | relative_url }}">Updates</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting">GitHub</a>
+      </div>
+      <a class="nav-cta" href="https://github.com/mathguimaraes/routine-meeting/releases/latest">Download</a>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-note">© 2026 Routine Meeting. Free and open source.</div>
+      </div>
+      <div class="footer-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/updates/' | relative_url }}">Updates</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting">GitHub</a>
+        <a href="https://github.com/mathguimaraes/routine-meeting/issues">Feedback</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
