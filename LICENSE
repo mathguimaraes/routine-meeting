@@ -1,0 +1,25 @@
+Copyright (c) 2026 Matheus Guimarães
+
+All rights reserved.
+
+Permission is granted to download and use the compiled Routine Meeting
+application ("the Software") for personal or commercial use, free of
+charge, subject to the following conditions:
+
+- You may not redistribute, sell, sublicense, or repackage the Software.
+- You may not reverse engineer, decompile, or disassemble the Software,
+  except to the extent that such restriction is prohibited by applicable
+  law.
+- You may not modify the Software.
+
+This repository contains release binaries, an update feed (appcast.xml),
+and documentation only. It does not contain the Software's source code,
+which is closed and not distributed.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
