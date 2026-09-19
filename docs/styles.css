@@ -140,7 +140,7 @@ nav {
 /* ---------- Hero ---------- */
 
 .hero {
-  padding: 96px 24px 72px;
+  padding: 80px 24px 72px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -521,5 +521,43 @@ footer {
   }
   section {
     padding: 56px 20px;
+  }
+}
+
+/* ---------- Hero screenshot ---------- */
+
+.hero-shot {
+  position: relative;
+  max-width: 1000px;
+  margin: 64px auto 0;
+}
+
+.hero-shot::before {
+  content: '';
+  position: absolute;
+  inset: 8% 6% -6%;
+  background: radial-gradient(ellipse at center, var(--accent-glow) 0%, transparent 70%);
+  filter: blur(40px);
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-shot img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid var(--border-hover);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 640px) {
+  .hero-shot {
+    margin-top: 44px;
+  }
+  .hero-shot img {
+    border-radius: 10px;
   }
 }
