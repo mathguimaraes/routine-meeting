@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Where your meeting audio goes: hosted notetaker versus a local Mac app</title>
+<desc id="d">Top row: a hosted service stores recordings and transcripts on the vendor's servers. Bottom row: a local app records, transcribes and summarizes on the Mac, and only sends transcript text out if a cloud summary is turned on.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#a1a1aa"/></marker></defs>
+<rect width="900" height="420" rx="16" fill="#131519"/>
+<text x="32" y="44" font-size="18" font-weight="700" fill="#f4f4f5">Where your meeting audio goes</text>
+<text x="32" y="86" font-size="13" font-weight="700" fill="#a1a1aa" letter-spacing="1">HOSTED NOTETAKER (EXAMPLE: OTTER)</text>
+<rect x="32" y="102" width="220" height="86" rx="12" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="48" y="132" font-size="15" font-weight="600" fill="#f4f4f5">Your Mac</text>
+<text x="48" y="154" font-size="13" fill="#a1a1aa">Mic and meeting audio</text>
+<text x="48" y="172" font-size="13" fill="#a1a1aa">captured by the app</text>
+<line x1="256" y1="145" x2="326" y2="145" stroke="#a1a1aa" stroke-width="2" marker-end="url(#a)"/>
+<rect x="332" y="102" width="270" height="86" rx="12" fill="#2a1f1f" stroke="#c2615a"/>
+<text x="348" y="132" font-size="15" font-weight="600" fill="#f4f4f5">Vendor's servers</text>
+<text x="348" y="154" font-size="13" fill="#e4b8b4">Recordings and transcripts stored</text>
+<text x="348" y="172" font-size="13" fill="#e4b8b4">in your workspace (AWS S3)</text>
+<line x1="606" y1="145" x2="676" y2="145" stroke="#a1a1aa" stroke-width="2" marker-end="url(#a)"/>
+<rect x="682" y="102" width="186" height="86" rx="12" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="698" y="132" font-size="15" font-weight="600" fill="#f4f4f5">Shared notes</text>
+<text x="698" y="154" font-size="13" fill="#a1a1aa">Teammates, search,</text>
+<text x="698" y="172" font-size="13" fill="#a1a1aa">integrations</text>
+<text x="32" y="236" font-size="13" font-weight="700" fill="#a1a1aa" letter-spacing="1">LOCAL MAC APP (EXAMPLE: ROUTINE MEETING)</text>
+<rect x="32" y="252" width="570" height="116" rx="12" fill="#14261d" stroke="#3f9b6a"/>
+<text x="48" y="282" font-size="15" font-weight="600" fill="#f4f4f5">Your Mac, no network needed</text>
+<rect x="48" y="298" width="150" height="56" rx="8" fill="#1a1d23" stroke="#3f3f46"/><text x="123" y="331" font-size="13" fill="#f4f4f5" text-anchor="middle">Record</text>
+<line x1="200" y1="326" x2="224" y2="326" stroke="#a1a1aa" stroke-width="2" marker-end="url(#a)"/>
+<rect x="230" y="298" width="150" height="56" rx="8" fill="#1a1d23" stroke="#3f3f46"/><text x="305" y="331" font-size="13" fill="#f4f4f5" text-anchor="middle">Transcribe</text>
+<line x1="382" y1="326" x2="406" y2="326" stroke="#a1a1aa" stroke-width="2" marker-end="url(#a)"/>
+<rect x="412" y="298" width="176" height="56" rx="8" fill="#1a1d23" stroke="#3f3f46"/><text x="500" y="331" font-size="13" fill="#f4f4f5" text-anchor="middle">Summary (local model)</text>
+<path d="M602 310 H676" stroke="#a1a1aa" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a)" fill="none"/>
+<rect x="682" y="266" width="186" height="102" rx="12" fill="#1a1d23" stroke="#3f3f46" stroke-dasharray="6 5"/>
+<text x="698" y="294" font-size="15" font-weight="600" fill="#f4f4f5">Cloud summary</text>
+<text x="698" y="316" font-size="13" fill="#a1a1aa">Optional. Sends the</text>
+<text x="698" y="334" font-size="13" fill="#a1a1aa">transcript text only,</text>
+<text x="698" y="352" font-size="13" fill="#a1a1aa">never the audio.</text>
+<text x="32" y="400" font-size="12" fill="#71717a">Based on each vendor's own privacy and product pages, checked 2026-10-06. Apps differ; check the one you use.</text>
+</svg>

@@ -194,3 +194,21 @@ main {
     padding-bottom: 64px;
   }
 }
+
+.post-body .post-figure {
+  margin: 32px 0;
+}
+
+.post-body .post-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+}
+
+.post-body .post-figure figcaption {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--text-muted);
+}

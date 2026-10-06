@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="900" height="330" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Monthly transcription minutes: Otter plans versus local apps</title>
+<desc id="d">Otter Basic includes 300 minutes per month and Otter Pro 1,200. Business lists unlimited meetings. Local apps have no minute meter; limits are disk space and the Mac.</desc>
+<rect width="900" height="330" rx="16" fill="#131519"/>
+<text x="32" y="44" font-size="18" font-weight="700" fill="#f4f4f5">Monthly transcription minutes</text>
+<text x="32" y="68" font-size="13" fill="#a1a1aa">Otter pricing page, checked 2026-10-06. Per-conversation caps: 30 min (Basic), 90 min (Pro), 4 hours (Business).</text>
+<text x="32" y="122" font-size="14" fill="#f4f4f5">Otter Basic (free)</text>
+<rect x="210" y="104" width="75" height="26" rx="5" fill="#c2615a"/><text x="295" y="123" font-size="14" font-weight="600" fill="#f4f4f5">300</text>
+<text x="32" y="172" font-size="14" fill="#f4f4f5">Otter Pro</text>
+<rect x="210" y="154" width="300" height="26" rx="5" fill="#c2615a"/><text x="520" y="173" font-size="14" font-weight="600" fill="#f4f4f5">1,200</text>
+<text x="32" y="222" font-size="14" fill="#f4f4f5">Otter Business</text>
+<rect x="210" y="204" width="640" height="26" rx="5" fill="none" stroke="#c2615a" stroke-dasharray="6 5"/><text x="226" y="223" font-size="14" fill="#e4b8b4">Unlimited meetings (4-hour cap per conversation)</text>
+<text x="32" y="272" font-size="14" fill="#f4f4f5">Local apps</text>
+<rect x="210" y="254" width="640" height="26" rx="5" fill="none" stroke="#3f9b6a" stroke-dasharray="6 5"/><text x="226" y="273" font-size="14" fill="#8fd5ae">No minute meter. The limits are your disk space and your Mac.</text>
+<text x="32" y="312" font-size="12" fill="#71717a">Bar lengths for Basic and Pro are to scale; the dashed bars are not.</text>
+</svg>
