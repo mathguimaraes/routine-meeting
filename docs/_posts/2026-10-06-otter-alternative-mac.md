@@ -30,7 +30,7 @@ Otter states these facts on its privacy and security page:
 In the Otter pages I read, there is no mention of on-device transcription. Its model is hosted: your recordings and transcripts live in your Otter workspace. For many teams that is a feature, because notes are shared and searchable. For someone who wants the audio to stay on their laptop, it is the deciding difference.
 
 <figure class="post-figure">
-  <img src="{{ '/assets/blog/where-your-audio-goes.svg' | relative_url }}" alt="Diagram comparing a hosted notetaker, where recordings and transcripts are stored on the vendor's servers, with a local Mac app that records, transcribes and summarizes on the Mac and only sends transcript text out if a cloud summary is turned on" width="900" height="420" loading="lazy">
+  <img src="{{ '/assets/blog/where-your-audio-goes.svg' | relative_url }}" alt="Diagram comparing a hosted notetaker, where recordings and transcripts are stored on the vendor's servers, with a local Mac app that records, transcribes and summarizes on the Mac and only sends transcript text out if a cloud summary is turned on" width="900" height="420" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Where audio goes in a hosted notetaker versus a local Mac app. Diagram by Routine Meeting, based on each vendor's own pages.</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ From Otter's pricing page, checked 2026-10-06:
 If you hit minute caps (a common complaint in Reddit threads about Otter), the reason to switch is simple: local apps have no minute meter, because the only limits are your disk and your Mac.
 
 <figure class="post-figure">
-  <img src="{{ '/assets/blog/otter-minutes-vs-local.svg' | relative_url }}" alt="Bar chart of Otter's monthly transcription minutes: 300 on Basic, 1,200 on Pro, unlimited meetings on Business, against local apps with no minute meter" width="900" height="330" loading="lazy">
+  <img src="{{ '/assets/blog/otter-minutes-vs-local.svg' | relative_url }}" alt="Bar chart of Otter's monthly transcription minutes: 300 on Basic, 1,200 on Pro, unlimited meetings on Business, against local apps with no minute meter" width="900" height="330" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Otter's monthly minutes by plan, from its pricing page, versus local apps.</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 - **Requirements:** Apple Silicon, macOS 13 or later.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar" width="1577" height="997" loading="lazy">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar" width="1577" height="997" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 
