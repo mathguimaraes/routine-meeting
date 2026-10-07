@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Two kinds of 1:1 apps: planning tools and recorders</title>
+<desc id="d">Left column: planning tools such as Lattice, 15Five, Windmill and Leadr hold the agenda, goals and follow-ups. Right column: recorders such as Routine Meeting, Granola, MacWhisper and Biscotti capture and summarize the conversation. Fellow sits in the middle because it offers both agendas and an AI notetaker.</desc>
+<rect width="900" height="400" rx="16" fill="#131519"/>
+<text x="32" y="44" font-size="18" font-weight="700" fill="#f4f4f5">Two jobs in a 1:1: plan it, or record it</text>
+<rect x="32" y="72" width="390" height="230" rx="12" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="52" y="102" font-size="13" font-weight="700" fill="#a1a1aa" letter-spacing="1">PLANNING TOOLS</text>
+<text x="52" y="130" font-size="15" font-weight="600" fill="#f4f4f5">Run the process</text>
+<text x="52" y="158" font-size="13" fill="#a1a1aa">Shared agenda and templates</text>
+<text x="52" y="178" font-size="13" fill="#a1a1aa">Goals, feedback, review history</text>
+<text x="52" y="198" font-size="13" fill="#a1a1aa">Both people usually use it</text>
+<text x="52" y="228" font-size="13" fill="#a1a1aa">Examples: Lattice, 15Five,</text>
+<text x="52" y="246" font-size="13" fill="#a1a1aa">Windmill, Leadr</text>
+<text x="52" y="282" font-size="13" fill="#e4b8b4">Data lives in the vendor's cloud</text>
+<rect x="478" y="72" width="390" height="230" rx="12" fill="#14261d" stroke="#3f9b6a"/>
+<text x="498" y="102" font-size="13" font-weight="700" fill="#a1a1aa" letter-spacing="1">RECORDERS</text>
+<text x="498" y="130" font-size="15" font-weight="600" fill="#f4f4f5">Write up the conversation</text>
+<text x="498" y="158" font-size="13" fill="#a1a1aa">Transcript, summary, action items</text>
+<text x="498" y="178" font-size="13" fill="#a1a1aa">Only you need the app</text>
+<text x="498" y="198" font-size="13" fill="#a1a1aa">No typing during the conversation</text>
+<text x="498" y="228" font-size="13" fill="#a1a1aa">Examples: Routine Meeting, Granola,</text>
+<text x="498" y="246" font-size="13" fill="#a1a1aa">MacWhisper, Biscotti</text>
+<text x="498" y="282" font-size="13" fill="#9fd6b5">Some run fully on your Mac</text>
+<rect x="300" y="320" width="300" height="48" rx="24" fill="#1a1d23" stroke="#a1a1aa" stroke-dasharray="6 5"/>
+<text x="450" y="342" font-size="13" font-weight="600" fill="#f4f4f5" text-anchor="middle">Both in one product: Fellow</text>
+<text x="450" y="358" font-size="12" fill="#a1a1aa" text-anchor="middle">agendas plus an AI notetaker (cloud)</text>
+<line x1="300" y1="344" x2="226" y2="302" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="600" y1="344" x2="674" y2="302" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="32" y="390" font-size="12" fill="#71717a">Based on vendor pages and Google results, checked 2026-10-07. Apps change; check the one you use.</text>
+</svg>
