@@ -3,11 +3,12 @@ title: "Otter alternative for Mac: local, no account, no minute caps (and how Ot
 categories: [blog]
 description: "Otter now has a bot-free Mac app, so the real differences are where your audio goes, accounts, minute caps and price. Otter compared with Routine Meeting and five other Mac options, with dated sources."
 date: 2026-10-06
+last_modified_at: 2026-10-07
 ---
 
-**Short answer:** Otter is a strong choice for teams that want shared notes, integrations and a compliance report. If you are one person on a Mac who wants meeting transcription that stays on your machine, with no account and no minute cap, a local app is the better fit. Routine Meeting, MacWhisper, Biscotti, MacParakeet and echo99 all record and transcribe on the Mac. The common claim that "Otter makes a bot join your call" is out of date: Otter has had a bot-free desktop app for Mac since late 2025. The differences that remain are where audio is processed and stored, whether you need an account, and what you pay.
+**Short answer:** Otter is a strong choice for teams that want shared notes, integrations and a compliance report. If you are one person on a Mac who wants meeting transcription that stays on your machine, with no account and no minute cap, a local app is the better fit. Routine Meeting, MacWhisper, Biscotti, MacParakeet and echo99 all record and transcribe on the Mac. The common claim that "Otter makes a bot join your call" is out of date: Otter has had a bot-free desktop app for Mac since late 2025. The differences that remain are where audio is processed and stored, whether you need an account, and what you pay. If your main problem is Otter's free-plan limits or its price, the cost table below compares a year of each option, including one free cloud tool.
 
-*Disclosure: I build Routine Meeting, one of the options below. Facts about Otter and the other apps come from their own websites and help pages, checked on 2026-10-06. Otter's Mac product page sits behind a sign-in wall, so for the Mac app I used its help center, its desktop pages and its launch post.*
+*Disclosure: I build Routine Meeting, one of the options below. Facts about Otter and the other apps come from their own websites and help pages, checked on 2026-10-06 (the cost table and the added options on 2026-10-07). Otter's Mac product page sits behind a sign-in wall, so for the Mac app I used its help center, its desktop pages and its launch post.*
 
 ## How Otter works on a Mac today
 
@@ -52,6 +53,28 @@ If you hit minute caps (a common complaint in Reddit threads about Otter), the r
   <figcaption>Otter's monthly minutes by plan, from its pricing page, versus local apps.</figcaption>
 </figure>
 
+## What a year costs, side by side
+
+Prices from each product's own page, checked 2026-10-07. Otter's Pro price is per user.
+
+| Option | Cost for 12 months | Where it runs |
+|---|---|---|
+| Otter Basic | Free: 300 minutes a month, 30 minutes per conversation | Hosted |
+| Otter Pro | About $100 billed annually ($8.33 a month), or about $204 paid monthly ($16.99) | Hosted |
+| Fathom | Free plan with unlimited recordings, transcripts and summaries. Premium is $16 a month billed annually | Hosted. Bot-free capture is in beta, per its pricing page |
+| Routine Meeting | Free | On your Mac |
+| MacWhisper | 64 EUR once (Pro) | On your Mac |
+| Whisper Notes | $14 once on Mac, per its site | On your Mac |
+| Hapi | Free tier for voice notes only. Meeting features are the Local plan at 79 EUR once | On your Mac |
+
+If the limit that bothers you is Otter's 300 free minutes, the simplest free cloud alternative is Fathom, and the simplest free local one is an app with no meter. If you would rather pay once than monthly, MacWhisper, Whisper Notes and Hapi are one-time purchases.
+
+## Interviews, journalists and long recordings
+
+Many people leave Otter because of file limits, not meetings. On Basic, Otter allows 3 lifetime file imports and 30 minutes per conversation. On Pro it allows 10 imports a month and 90 minutes per file. A two-hour interview or a long podcast does not fit either.
+
+For recorded files, use a file transcriber on your Mac. MacWhisper and Whisper Notes both transcribe files locally. Whisper Notes states unlimited minutes with no monthly cap. Routine Meeting is built for live calls: it starts when it hears a conversation, so it is not the right tool for transcribing an audio file you already have. If you record a call with it, there is no per-file limit.
+
 ## The alternatives, step by step
 
 ### Routine Meeting (free)
@@ -91,6 +114,22 @@ Per its own site: records your mic and your Mac's audio locally with no bot, tra
 
 Per its own site: a free, open-source macOS app for Apple Silicon Macs that captures meeting audio from your computer without a bot and transcribes on-device with Parakeet or Whisper models, and adds hotkey dictation. Its page did not say whether summaries run locally or in the cloud, or whether it labels speakers, so I leave those blank.
 
+### Hapi (macOS 14+, from 79 EUR once for meetings)
+
+Per its site, Hapi is a Mac app that transcribes locally and auto-detects Zoom, Meet, Teams, Slack, WhatsApp and a few more apps from a list. The Local plan adds meeting features, speaker labels and on-device AI summaries. Routine Meeting detects a call by its audio pattern instead of a list of apps, and it is free.
+
+### Shadow
+
+Per its site, Shadow is a Mac-only app that detects meetings, joins no calls, and says transcription happens on your Mac with audio staying on the device. It offers a free trial. I could not confirm its price from the page I read.
+
+### Whisper Notes ($14 once on Mac)
+
+Per its comparison page, Whisper Notes transcribes fully on the device with Whisper Large V3 Turbo and Parakeet V3, supports offline meeting recording on the direct-download Mac version, labels speakers on the device after the recording ends, and has no monthly minute cap. It needs Apple Silicon.
+
+### Fathom (free, hosted)
+
+Not a local option. Per its pricing page, Fathom's free plan includes unlimited recordings, transcripts and AI summaries, and recording is bot-free in beta or bot-based. It does not say where data is processed. Choose it if the limit that bothers you is Otter's minute cap and you accept a hosted service.
+
 ## Side by side
 
 | | Otter | Routine Meeting | MacWhisper | Biscotti | MacParakeet | echo99 |
@@ -111,6 +150,8 @@ Per its own site: a free, open-source macOS app for Apple Silicon Macs that capt
 - **You work in a team, share notes, and need integrations or a compliance report:** stay with Otter, or choose a hosted tool. A local app will not give you shared workspaces.
 - **You are on a Mac and want audio kept on your machine, with no account and no minute meter:** pick a local app. Routine Meeting if you want it to start with every call, in any app. Biscotti if you want per-person speaker labels and a fully local summary. MacParakeet if you want open source.
 - **You also transcribe lots of files and dictate:** MacWhisper.
+- **You want to pay once, not monthly:** MacWhisper, Whisper Notes or Hapi, all one-time purchases.
+- **You want free and accept a hosted service:** Fathom's free plan has no minute cap.
 - **You mostly need it for interviews or voice notes:** a file-based transcriber is cheaper than a meeting subscription; the Reddit threads on this topic point to Whisper-based tools.
 
 ## Moving from Otter to a local app
@@ -123,6 +164,10 @@ Per its own site: a free, open-source macOS app for Apple Silicon Macs that capt
 
 ## FAQ
 
+**Is there a free alternative to Otter?** Yes. Fathom has a free hosted plan with unlimited recordings and summaries. On your Mac, Routine Meeting and several other apps are free with no minute meter.
+
+**What are the limits of Otter's free plan?** 300 minutes a month, 30 minutes per conversation, and 3 lifetime file imports, per Otter's pricing page.
+
 **Is there an Otter app for Mac?** Yes. Otter has a desktop app for Mac and Windows that records without a bot, and a web app.
 
 **Does Otter put a bot in my call?** Otter's Notetaker can join a meeting as a participant, and the desktop app lets you record without it.
@@ -133,7 +178,7 @@ Per its own site: a free, open-source macOS app for Apple Silicon Macs that capt
 
 **Will a local app match Otter's accuracy and summaries?** Whisper-family models are strong on clear speech. Local summaries are weaker than cloud ones, and none of the local apps offer shared workspaces or an AI chat across your whole team's meetings.
 
-## Sources (checked 2026-10-06)
+## Sources (checked 2026-10-06, cost table and added options 2026-10-07)
 
 - Otter: pricing page, privacy and security page, desktop app page, help article "Otter Desktop App (Mac and Windows)", and the launch post "Introducing the Otter Desktop App" (Oct 7, 2025), all on otter.ai
 - echo99: echo99.app and echo99.app/otter-alternative
@@ -141,3 +186,7 @@ Per its own site: a free, open-source macOS app for Apple Silicon Macs that capt
 - MacWhisper: macwhisper.com and docs.macwhisper.com
 - MacParakeet: macparakeet.com/meetings
 - Biscotti: github.com/scosman/Biscotti
+- Fathom: fathom.ai/pricing
+- Whisper Notes: whispernotes.app/whisper-notes-vs-otter-ai
+- Hapi: speakhapi.com
+- Shadow: shadow.do
