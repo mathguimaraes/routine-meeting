@@ -3,6 +3,7 @@ title: "1:1 meeting notes on Mac: record and transcribe privately (and how 6 opt
 categories: [blog]
 description: "Planning tools like Fellow and Lattice run your 1:1s; recorders like Routine Meeting write them up. How they differ, what each costs, and how to record a 1:1 on a Mac without a bot and without sending audio away."
 date: 2026-10-07
+last_modified_at: 2026-10-08
 ---
 
 **Short answer:** two kinds of app are sold for 1:1s, and they solve different problems. **Planning tools** (Fellow, Lattice, 15Five, Windmill and similar) hold the shared agenda, goals and follow-ups. **Recorders** (Routine Meeting, Granola, MacWhisper, Biscotti) capture what was said and write the notes for you. If you manage people on a Mac and want the conversation itself written up without a bot in the call, use a recorder. If you want a shared agenda and review history with your team, use a planning tool. Many managers use both. Because a 1:1 often contains performance feedback, where the audio goes matters more than for most meetings.
@@ -140,9 +141,9 @@ The honest baseline. In Reddit threads on "what tools do you use for 1:1s", many
 
 ## Sources (checked 2026-10-07)
 
-- Fellow: fellow.ai/pricing
-- Granola: granola.ai/pricing and granola.ai/security
-- MacWhisper: macwhisper.com and docs.macwhisper.com
-- Biscotti: github.com/scosman/Biscotti
+- Fellow: [fellow.ai/pricing](https://fellow.ai/pricing)
+- Granola: [granola.ai/pricing](https://granola.ai/pricing) and [granola.ai/security](https://granola.ai/security)
+- MacWhisper: [macwhisper.com](https://macwhisper.com) and [docs.macwhisper.com](https://docs.macwhisper.com)
+- Biscotti: [github.com/scosman/Biscotti](https://github.com/scosman/Biscotti)
 - Planning tools mentioned (Lattice, 15Five, Windmill, Leadr): names as listed in Google results for 1:1 meeting software, 2026-10-07
 - Reddit r/managers, "What tools do you use to conduct one-on-one meetings?"

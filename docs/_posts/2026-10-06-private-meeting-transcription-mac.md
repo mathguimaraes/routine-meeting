@@ -21,6 +21,11 @@ last_modified_at: 2026-10-08
 
 A tool can be bot-free and still upload your audio in step 2. So ask four questions of any app: does a bot join, where is the speech recognized, where does the summary run, and where is everything stored.
 
+<figure class="post-figure">
+  <img src="{{ '/assets/blog/four-steps-local-or-cloud.svg' | relative_url }}" alt="Four steps of a meeting recording, capture, transcription, summary and storage, each local or cloud" width="900" height="330" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <figcaption>Each step can be local or cloud. "No bot" only answers the first.</figcaption>
+</figure>
+
 ## The apps, step by step
 
 ### MacWhisper (Pro: 64 EUR, one time)
@@ -38,6 +43,11 @@ MacParakeet is free, open source under GPL-3.0, and needs no account or subscrip
 Good for: people who want open source and a recorder that is built to survive crashes.
 
 Limits to know: it needs macOS 14.2 or later and Apple Silicon. Summaries are not built in; you wire up your own provider.
+
+<figure class="post-figure">
+  <img src="{{ '/assets/blog/competitors/macparakeet-website-2026-10-08.jpg' | relative_url }}" alt="MacParakeet's meeting window showing a recording in progress with notes, transcript and mic and system audio meters" width="700" height="610" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px;max-width:560px;margin:0 auto;">
+  <figcaption>Screenshot of MacParakeet's website, 2026-10-08. Image property of MacParakeet, shown for comparison.</figcaption>
+</figure>
 
 ### Biscotti (free, source-available)
 
@@ -86,6 +96,11 @@ Routine Meeting is a menu-bar app that starts by itself. Instead of integrating 
 - **Summaries:** optional. You can use your own Gemini API key (only the transcript text is sent, never audio), or a fully local model through MLX with no key and no network call.
 - **Storage:** everything stays on your Mac. Old recordings are cleaned up after a number of days you choose, but only once a transcript exists. Transcripts and summaries are kept.
 - **Cost:** free, no account.
+
+<figure class="post-figure">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar" width="1577" height="997" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <figcaption>Routine Meeting's main window on a Mac.</figcaption>
+</figure>
 
 Limits, stated plainly:
 
@@ -158,11 +173,11 @@ Local does not change the law. Many places require telling the other people that
 
 ## Sources (checked 2026-10-06, additions 2026-10-08)
 
-- MacWhisper: macwhisper.com and docs.macwhisper.com (record meetings article)
-- MacParakeet: macparakeet.com/meetings
-- Biscotti: github.com/scosman/Biscotti
-- Meetily: github.com/Zackriya-Solutions/meetily
-- Granola: granola.ai/security
-- Apple Notes: support.apple.com/guide/notes/record-and-transcribe-audio-apdb5106e334/mac
-- Whisper Notes: whispernotes.app/whisper-notes-vs-otter-ai
-- Hapi: speakhapi.com
+- MacWhisper: [macwhisper.com](https://macwhisper.com) and [docs.macwhisper.com](https://docs.macwhisper.com) (record meetings article)
+- MacParakeet: [macparakeet.com/meetings](https://macparakeet.com/meetings)
+- Biscotti: [github.com/scosman/Biscotti](https://github.com/scosman/Biscotti)
+- Meetily: [github.com/Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
+- Granola: [granola.ai/security](https://granola.ai/security)
+- Apple Notes: [support.apple.com/guide/notes/record-and-transcribe-audio-apdb5106e334/mac](https://support.apple.com/guide/notes/record-and-transcribe-audio-apdb5106e334/mac)
+- Whisper Notes: [whispernotes.app/whisper-notes-vs-otter-ai](https://whispernotes.app/whisper-notes-vs-otter-ai)
+- Hapi: [speakhapi.com](https://speakhapi.com)

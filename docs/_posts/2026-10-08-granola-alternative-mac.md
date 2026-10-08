@@ -156,13 +156,13 @@ Many places require telling the other people that you are recording, and some re
 
 ## Sources (checked 2026-10-06 to 2026-10-08)
 
-- Granola: granola.ai (home, pricing and security pages)
-- Muesli: muesli.works and muesli.works/granola-alternative
-- Meetily: github.com/Zackriya-Solutions/meetily
-- Biscotti: github.com/scosman/Biscotti
-- MacWhisper: macwhisper.com and docs.macwhisper.com
-- Hapi: speakhapi.com
-- Whisper Notes: whispernotes.app/whisper-notes-vs-otter-ai
-- Fathom: fathom.ai/pricing
-- Fellow: fellow.ai/pricing
+- Granola: [granola.ai](https://granola.ai) (home, pricing and security pages)
+- Muesli: [muesli.works](https://muesli.works) and [muesli.works/granola-alternative](https://muesli.works/granola-alternative)
+- Meetily: [github.com/Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
+- Biscotti: [github.com/scosman/Biscotti](https://github.com/scosman/Biscotti)
+- MacWhisper: [macwhisper.com](https://macwhisper.com) and [docs.macwhisper.com](https://docs.macwhisper.com)
+- Hapi: [speakhapi.com](https://speakhapi.com)
+- Whisper Notes: [whispernotes.app/whisper-notes-vs-otter-ai](https://whispernotes.app/whisper-notes-vs-otter-ai)
+- Fathom: [fathom.ai/pricing](https://fathom.ai/pricing)
+- Fellow: [fellow.ai/pricing](https://fellow.ai/pricing)
 - Lawsuit reports: Computerworld and Lifehacker (Aug 6, 2026), Forbes (Aug 21, 2026)

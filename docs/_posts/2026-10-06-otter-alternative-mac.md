@@ -3,7 +3,7 @@ title: "Otter alternative for Mac: local, no account, no minute caps (and how Ot
 categories: [blog]
 description: "Otter now has a bot-free Mac app, so the real differences are where your audio goes, accounts, minute caps and price. Otter compared with Routine Meeting and five other Mac options, with dated sources."
 date: 2026-10-06
-last_modified_at: 2026-10-07
+last_modified_at: 2026-10-08
 ---
 
 **Short answer:** Otter is a strong choice for teams that want shared notes, integrations and a compliance report. If you are one person on a Mac who wants meeting transcription that stays on your machine, with no account and no minute cap, a local app is the better fit. Routine Meeting, MacWhisper, Biscotti, MacParakeet and echo99 all record and transcribe on the Mac. The common claim that "Otter makes a bot join your call" is out of date: Otter has had a bot-free desktop app for Mac since late 2025. The differences that remain are where audio is processed and stored, whether you need an account, and what you pay. If your main problem is Otter's free-plan limits or its price, the cost table below compares a year of each option, including one free cloud tool.
@@ -180,13 +180,13 @@ Not a local option. Per its pricing page, Fathom's free plan includes unlimited 
 
 ## Sources (checked 2026-10-06, cost table and added options 2026-10-07)
 
-- Otter: pricing page, privacy and security page, desktop app page, help article "Otter Desktop App (Mac and Windows)", and the launch post "Introducing the Otter Desktop App" (Oct 7, 2025), all on otter.ai
-- echo99: echo99.app and echo99.app/otter-alternative
-- Muesli: muesli.works and muesli.works/otter-ai-alternative
-- MacWhisper: macwhisper.com and docs.macwhisper.com
-- MacParakeet: macparakeet.com/meetings
-- Biscotti: github.com/scosman/Biscotti
-- Fathom: fathom.ai/pricing
-- Whisper Notes: whispernotes.app/whisper-notes-vs-otter-ai
-- Hapi: speakhapi.com
-- Shadow: shadow.do
+- Otter: pricing page, privacy and security page, desktop app page, help article "Otter Desktop App (Mac and Windows)", and the launch post "Introducing the Otter Desktop App" (Oct 7, 2025), all on [otter.ai](https://otter.ai)
+- echo99: [echo99.app](https://echo99.app) and [echo99.app/otter-alternative](https://echo99.app/otter-alternative)
+- Muesli: [muesli.works](https://muesli.works) and [muesli.works/otter-ai-alternative](https://muesli.works/otter-ai-alternative)
+- MacWhisper: [macwhisper.com](https://macwhisper.com) and [docs.macwhisper.com](https://docs.macwhisper.com)
+- MacParakeet: [macparakeet.com/meetings](https://macparakeet.com/meetings)
+- Biscotti: [github.com/scosman/Biscotti](https://github.com/scosman/Biscotti)
+- Fathom: [fathom.ai/pricing](https://fathom.ai/pricing)
+- Whisper Notes: [whispernotes.app/whisper-notes-vs-otter-ai](https://whispernotes.app/whisper-notes-vs-otter-ai)
+- Hapi: [speakhapi.com](https://speakhapi.com)
+- Shadow: [shadow.do](https://shadow.do)

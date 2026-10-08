@@ -22,6 +22,11 @@ A "local" meeting notes setup has three stages. Each can be local or cloud:
 
 "Offline" is the stricter claim: all three stages work with no network at all. Most apps that say "local" mean the first stage only. Always check the second.
 
+<figure class="post-figure">
+  <img src="{{ '/assets/blog/local-pipeline-offline.svg' | relative_url }}" alt="A fully local pipeline: record, transcribe with a Whisper-family model, summarize with a local model, keep files on disk" width="900" height="300" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <figcaption>A fully local pipeline needs no network once the models are downloaded.</figcaption>
+</figure>
+
 ## Hardware: what you need
 
 - **Apple Silicon** (M1 or later). Every on-device app below targets it, and so does Whisper acceleration.
@@ -43,6 +48,11 @@ Biscotti runs the whole pipeline locally: Whisper V3 Turbo, Pyannote for separat
 ### MacParakeet (free, GPL-3.0)
 
 Open source, no account. Speech recognition runs on your Mac and the recorder separates you from everyone else. It writes audio to disk every second, so a crash does not lose the meeting. Summaries use the provider you configure (OpenAI, Anthropic, Ollama, LM Studio or OpenRouter), so they are local only if you choose Ollama or LM Studio. It needs macOS 14.2 or later and Apple Silicon.
+
+<figure class="post-figure">
+  <img src="{{ '/assets/blog/competitors/macparakeet-website-2026-10-08.jpg' | relative_url }}" alt="MacParakeet's meeting window showing a recording in progress with notes, transcript and mic and system audio meters" width="700" height="610" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px;max-width:560px;margin:0 auto;">
+  <figcaption>Screenshot of MacParakeet's website, 2026-10-08. Image property of MacParakeet, shown for comparison.</figcaption>
+</figure>
 
 ### Meetily (free community edition, MIT)
 
@@ -93,6 +103,11 @@ This gives you full control and costs nothing, but you do the recording, copying
 
 Searches for "offline speech to text for Mac" mostly return dictation and file transcription apps such as Superwhisper, TypeWhisper and MacWhisper. Per their own descriptions, dictation apps turn your voice into text in any text field, and file transcribers convert recordings you already have. Neither starts by itself when a call begins. If you want a call recorded and summarized without pressing anything, use a meeting recorder from the list above.
 
+<figure class="post-figure">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar" width="1577" height="997" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <figcaption>Routine Meeting's main window on a Mac.</figcaption>
+</figure>
+
 ## Setup, step by step (Routine Meeting)
 
 1. Install the app and open the setup guide. It explains each permission before it asks.
@@ -132,11 +147,11 @@ A small on-device model is private and works anywhere, but it is less reliable o
 
 ## Sources (checked 2026-10-06, additions 2026-10-08)
 
-- Biscotti: github.com/scosman/Biscotti
-- MacParakeet: macparakeet.com/meetings
-- Meetily: github.com/Zackriya-Solutions/meetily
-- Resonant: onresonant.com/resources
-- Quill: quillmeetings.com
-- Whisper Notes: whispernotes.app/whisper-notes-vs-otter-ai
-- Hapi: speakhapi.com
-- Ollama: ollama.com
+- Biscotti: [github.com/scosman/Biscotti](https://github.com/scosman/Biscotti)
+- MacParakeet: [macparakeet.com/meetings](https://macparakeet.com/meetings)
+- Meetily: [github.com/Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
+- Resonant: [onresonant.com/resources](https://onresonant.com/resources)
+- Quill: [quillmeetings.com](https://quillmeetings.com)
+- Whisper Notes: [whispernotes.app/whisper-notes-vs-otter-ai](https://whispernotes.app/whisper-notes-vs-otter-ai)
+- Hapi: [speakhapi.com](https://speakhapi.com)
+- Ollama: [ollama.com](https://ollama.com)

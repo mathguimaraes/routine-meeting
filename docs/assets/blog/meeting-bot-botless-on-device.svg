@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Three ways a meeting recorder works</title>
+<desc id="d">Three models compared: a meeting bot joins the call and uploads audio to the vendor; a botless app records on your computer but sends audio or text to cloud providers; an on-device app records and transcribes on your Mac. Guests see no extra participant in the last two, and consent is still needed in all three.</desc>
+<rect width="900" height="400" rx="16" fill="#131519"/>
+<text x="32" y="44" font-size="18" font-weight="700" fill="#f4f4f5">Bot-free is a capture method, not a privacy promise</text>
+<rect x="32" y="68" width="268" height="268" rx="12" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="48" y="96" font-size="13" font-weight="700" fill="#f4f4f5" letter-spacing="1">1  MEETING BOT</text>
+<text x="48" y="128" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">CAPTURE</text>
+<text x="48" y="146" font-size="13" fill="#f4f4f5">Joins the call as a participant</text>
+<text x="48" y="180" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">AUDIO GOES TO</text>
+<text x="48" y="198" font-size="13" fill="#f4f4f5">The vendor's cloud</text>
+<text x="48" y="232" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">OTHERS SEE</text>
+<text x="48" y="250" font-size="13" fill="#f4f4f5">Everyone sees it in the list</text>
+<text x="48" y="284" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">EXAMPLES</text>
+<text x="48" y="302" font-size="13" fill="#f4f4f5">Otter bot, Fireflies,</text>
+<text x="48" y="318" font-size="13" fill="#f4f4f5">Fathom</text>
+<rect x="316" y="68" width="268" height="268" rx="12" fill="#2a1f1f" stroke="#c2615a"/>
+<text x="332" y="96" font-size="13" font-weight="700" fill="#f4f4f5" letter-spacing="1">2  BOTLESS, CLOUD PROCESSED</text>
+<text x="332" y="128" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">CAPTURE</text>
+<text x="332" y="146" font-size="13" fill="#f4f4f5">Records on your computer</text>
+<text x="332" y="180" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">AUDIO GOES TO</text>
+<text x="332" y="198" font-size="13" fill="#f4f4f5">Cloud providers</text>
+<text x="332" y="232" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">OTHERS SEE</text>
+<text x="332" y="250" font-size="13" fill="#f4f4f5">Guests see no extra participant</text>
+<text x="332" y="284" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">EXAMPLES</text>
+<text x="332" y="302" font-size="13" fill="#f4f4f5">Granola, Fellow,</text>
+<text x="332" y="318" font-size="13" fill="#f4f4f5">Tactiq</text>
+<rect x="600" y="68" width="268" height="268" rx="12" fill="#1a2a22" stroke="#3f9b6a"/>
+<text x="616" y="96" font-size="13" font-weight="700" fill="#f4f4f5" letter-spacing="1">3  ON-DEVICE</text>
+<text x="616" y="128" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">CAPTURE</text>
+<text x="616" y="146" font-size="13" fill="#f4f4f5">Records on your computer</text>
+<text x="616" y="180" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">AUDIO GOES TO</text>
+<text x="616" y="198" font-size="13" fill="#f4f4f5">Stays on your Mac</text>
+<text x="616" y="232" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">OTHERS SEE</text>
+<text x="616" y="250" font-size="13" fill="#f4f4f5">Guests see no extra participant</text>
+<text x="616" y="284" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">EXAMPLES</text>
+<text x="616" y="302" font-size="13" fill="#f4f4f5">Routine Meeting, MacWhisper,</text>
+<text x="616" y="318" font-size="13" fill="#f4f4f5">Biscotti</text>
+<rect x="32" y="352" width="836" height="32" rx="8" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="450" y="373" font-size="13" fill="#f4f4f5" text-anchor="middle">In all three, you still have to tell people you are recording.</text>
+</svg>
