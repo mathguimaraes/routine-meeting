@@ -1,13 +1,14 @@
 ---
-title: "Local and offline AI meeting notes on a Mac: how to run it with no cloud (and 5 apps compared)"
+title: "Local and offline AI meeting notes on a Mac: Whisper, Ollama and 8 apps compared"
 categories: [blog]
 description: "What actually runs on your Mac for meeting transcription and summaries, what still needs internet once, and how to test it in airplane mode. Compared with dated sources."
 date: 2026-10-06
+last_modified_at: 2026-10-08
 ---
 
 **Short answer:** you can record a meeting, transcribe it and write the summary entirely on a Mac, with Wi-Fi off. You need two local parts: a speech model that turns audio into text (Whisper-family models run well on Apple Silicon) and a small language model that turns the text into notes. The first run needs internet once, to download the models. After that, nothing has to leave the machine. Summaries from a small local model are weaker than a big cloud model, and that trade-off is the real decision.
 
-*Disclosure: I build Routine Meeting, one of the apps below. Facts about the other apps come from their own sites and docs, checked on 2026-10-06.*
+*Disclosure: I build Routine Meeting, one of the apps below. Facts about the other apps come from their own sites and docs, checked on 2026-10-06 (Whisper Notes, Hapi, the Ollama route and the dictation note added 2026-10-08).*
 
 ## What runs where
 
@@ -27,7 +28,7 @@ A "local" meeting notes setup has three stages. Each can be local or cloud:
 - **RAM matters for summaries, not for transcription.** A local summary model takes a few gigabytes while it runs. On an 8 GB Mac, run only one model at a time; on 16 GB or more you have room to spare.
 - **Disk:** models are downloaded once. Recordings can be large, so pick an app with automatic cleanup.
 
-## The five apps, step by step
+## The apps, step by step
 
 ### Routine Meeting (free)
 
@@ -55,6 +56,14 @@ Resonant's site says its neural speech recognition runs on Apple Silicon and wor
 
 Quill says audio is recorded and stored on your device and is not processed outside your computer, with no bot. It also offers calendar briefs, automations to tools like Slack and Notion, and a paid tier. I could not confirm from its page whether the summary step runs locally, so check that before relying on it for offline use.
 
+### Whisper Notes ($14 once on Mac)
+
+Per its site, Whisper Notes transcribes fully on the device with Whisper Large V3 Turbo and Parakeet V3, supports offline meeting recording on the direct-download Mac version, labels speakers on the device after the recording ends, and has no monthly minute cap. It needs Apple Silicon. Its summaries are not covered in the page I read.
+
+### Hapi (from 79 EUR once for meetings)
+
+Per its site, Hapi needs macOS 14 or later, says it is 100 percent local, auto-detects Zoom, Meet, Teams, Slack, WhatsApp and a few more apps from a list, and offers speaker labels and on-device AI summaries on its Local plan.
+
 ## Side by side
 
 | | Routine Meeting | Biscotti | MacParakeet | Meetily | Resonant |
@@ -66,6 +75,23 @@ Quill says audio is recorded and stored on your device and is not processed outs
 | Price | Free | Free | Free | Free; Pro paid | Not stated |
 | Source | Closed | Source-available | GPL-3.0 | MIT | Not stated |
 | Requirements | Apple Silicon | macOS 15+, 16 GB advised | macOS 14.2+ | macOS, Windows, Linux | macOS 14+, Apple Silicon |
+
+Whisper Notes and Hapi are described above and are not in the table.
+
+## The do-it-yourself route: Whisper plus Ollama
+
+If you are comfortable in a terminal, you can build the same pipeline from parts. Many of the guides on this topic do exactly that: record the audio, transcribe it with a Whisper model, then pass the text to a local language model through Ollama.
+
+1. **Record the call** with any app that saves your microphone and system audio.
+2. **Transcribe it** with a Whisper-family model. MacWhisper, whisper.cpp or another local Whisper app all work. Check that the app you use runs the model on your Mac.
+3. **Install Ollama**, download a model once (for example `ollama pull llama3.2`), then summarize the transcript (`ollama run llama3.2 "Summarize this meeting and list action items: ..."`). Ollama also offers cloud-hosted models, so pick a local model if you need to stay offline. Speed depends on your hardware, per Ollama's site.
+4. **Run the offline test** below with Wi-Fi off.
+
+This gives you full control and costs nothing, but you do the recording, copying and prompting by hand. An app removes those steps. Meetily, covered above, wraps the same Whisper plus Ollama idea in one app.
+
+## Dictation apps are not meeting recorders
+
+Searches for "offline speech to text for Mac" mostly return dictation and file transcription apps such as Superwhisper, TypeWhisper and MacWhisper. Per their own descriptions, dictation apps turn your voice into text in any text field, and file transcribers convert recordings you already have. Neither starts by itself when a call begins. If you want a call recorded and summarized without pressing anything, use a meeting recorder from the list above.
 
 ## Setup, step by step (Routine Meeting)
 
@@ -104,10 +130,13 @@ A small on-device model is private and works anywhere, but it is less reliable o
 
 **Does local mean no consent needed?** No. Recording laws still apply. Tell participants before recording.
 
-## Sources (checked 2026-10-06)
+## Sources (checked 2026-10-06, additions 2026-10-08)
 
 - Biscotti: github.com/scosman/Biscotti
 - MacParakeet: macparakeet.com/meetings
 - Meetily: github.com/Zackriya-Solutions/meetily
 - Resonant: onresonant.com/resources
 - Quill: quillmeetings.com
+- Whisper Notes: whispernotes.app/whisper-notes-vs-otter-ai
+- Hapi: speakhapi.com
+- Ollama: ollama.com
