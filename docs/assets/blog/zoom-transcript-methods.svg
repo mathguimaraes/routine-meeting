@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><title id="t">Three ways to get a Zoom transcript</title><desc id="d">Zoom's own recording tells everyone and needs host permission; Zoom My Notes runs inside Zoom Workplace; a device-capture app works for any account and Zoom does not announce it, but you still need to tell people.</desc><rect width="900" height="300" rx="16" fill="#131519"/><text x="32" y="44" font-size="18" font-weight="700" fill="#f4f4f5">Three ways to get a Zoom transcript</text>
+<text x="32" y="84" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">METHOD</text>
+<text x="250" y="84" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">DOES ZOOM TELL PEOPLE?</text>
+<text x="470" y="84" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">WHO CAN USE IT</text>
+<text x="690" y="84" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">WHERE AUDIO GOES</text>
+<rect x="24" y="98" width="852" height="48" rx="10" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="40" y="127" font-size="13" font-weight="700" fill="#f4f4f5">Zoom's own recording</text>
+<text x="258" y="127" font-size="13" fill="#f4f4f5">Everyone is told</text>
+<text x="478" y="127" font-size="13" fill="#f4f4f5">Host or allowed participant</text>
+<text x="698" y="127" font-size="13" fill="#f4f4f5">Zoom's cloud or a local file</text>
+<rect x="24" y="156" width="852" height="48" rx="10" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="40" y="185" font-size="13" font-weight="700" fill="#f4f4f5">Zoom My Notes</text>
+<text x="258" y="185" font-size="13" fill="#f4f4f5">Not stated by Zoom</text>
+<text x="478" y="185" font-size="13" fill="#f4f4f5">Zoom Workplace app</text>
+<text x="698" y="185" font-size="13" fill="#f4f4f5">Zoom</text>
+<rect x="24" y="214" width="852" height="48" rx="10" fill="#1a2a22" stroke="#3f9b6a"/>
+<text x="40" y="243" font-size="13" font-weight="700" fill="#f4f4f5">Device-capture app</text>
+<text x="258" y="243" font-size="13" fill="#f4f4f5">Not by Zoom</text>
+<text x="478" y="243" font-size="13" fill="#f4f4f5">Any account, host or guest</text>
+<text x="698" y="243" font-size="13" fill="#f4f4f5">Depends on the app</text>
+<text x="32" y="286" font-size="13" fill="#a1a1aa">Whichever you choose, tell people you are recording or transcribing.</text></svg>
