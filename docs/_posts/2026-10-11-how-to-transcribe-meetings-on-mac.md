@@ -1,5 +1,6 @@
 ---
 title: "How to transcribe a meeting on a Mac: 5 ways, from Notes and Voice Memos to fully automatic"
+seo_title: "How to transcribe a meeting on a Mac: 5 ways"
 categories: [blog]
 description: "Five ways to transcribe a meeting on a Mac: Notes or Voice Memos, QuickTime with an audio driver, a meeting bot, a desktop app, or a fully automatic app. What each hears, costs and sends away, with dated sources."
 date: 2026-10-11

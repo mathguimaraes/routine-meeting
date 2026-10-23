@@ -1,5 +1,6 @@
 ---
 title: "1:1 meeting notes on Mac: record and transcribe privately (and how 6 options compare)"
+seo_title: "1:1 meeting notes on Mac: record and transcribe privately"
 categories: [blog]
 description: "Planning tools like Fellow and Lattice run your 1:1s; recorders like Routine Meeting write them up. How they differ, what each costs, and how to record a 1:1 on a Mac without a bot and without sending audio away."
 date: 2026-10-07

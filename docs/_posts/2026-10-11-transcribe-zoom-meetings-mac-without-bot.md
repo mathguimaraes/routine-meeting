@@ -1,5 +1,6 @@
 ---
 title: "Transcribe Zoom meetings on a Mac without a bot (and without hosting the call)"
+seo_title: "Transcribe Zoom meetings on a Mac without a bot"
 categories: [blog]
 description: "Zoom stopped letting people save live captions in May 2026. Three ways to get a Zoom transcript on a Mac without a bot: Zoom's own tools, a device-capture app, or a local recording. Setup steps, what others see, consent, dated sources."
 date: 2026-10-11

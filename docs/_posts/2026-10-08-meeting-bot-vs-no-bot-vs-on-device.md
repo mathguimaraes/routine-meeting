@@ -1,5 +1,6 @@
 ---
 title: "Meeting transcription without a bot: bot, botless and on-device, and where your audio actually goes"
+seo_title: "Transcribe meetings without a bot: 3 ways compared"
 categories: [blog]
 description: "Bot-free only describes how a meeting is captured, not where the audio goes. Three models compared (meeting bot, botless app, on-device), what other people see, and what consent still requires. Dated sources."
 date: 2026-10-08

@@ -1,5 +1,6 @@
 ---
 title: "Granola alternative for Mac: free, local options that keep your audio on your Mac"
+seo_title: "Granola alternative for Mac: 7 free, local options"
 categories: [blog]
 description: "Granola is bot-free and polished, but it sends audio to third-party providers and limits free history. Seven alternatives for Mac compared on where audio goes, price and what you give up, with dated sources."
 date: 2026-10-08

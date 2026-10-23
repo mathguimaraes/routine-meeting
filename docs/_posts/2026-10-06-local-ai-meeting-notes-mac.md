@@ -1,5 +1,6 @@
 ---
 title: "Local and offline AI meeting notes on a Mac: Whisper, Ollama and 8 apps compared"
+seo_title: "Local AI meeting notes on a Mac: 8 apps compared"
 categories: [blog]
 description: "What actually runs on your Mac for meeting transcription and summaries, what still needs internet once, and how to test it in airplane mode. Compared with dated sources."
 date: 2026-10-06

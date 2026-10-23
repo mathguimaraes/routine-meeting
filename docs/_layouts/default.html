@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting</title>
-  <meta name="title" content="{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting" />
+  <title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting{% endif %}</title>
+  <meta name="title" content="{% if page.seo_title %}{{ page.seo_title }}{% else %}{% if page.title %}{{ page.title }} — {% endif %}Routine Meeting{% endif %}" />
   <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}" />
   <meta name="author" content="{{ site.author }}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
