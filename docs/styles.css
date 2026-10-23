@@ -561,3 +561,6 @@ footer {
     border-radius: 10px;
   }
 }
+
+.listed-on{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:12px 0;font-size:13px;opacity:.9}
+.listed-on img{display:block;height:40px;width:auto}
