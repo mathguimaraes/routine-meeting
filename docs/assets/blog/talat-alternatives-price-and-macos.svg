@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 484" width="900" height="484" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><title id="t">Talat and six alternatives: price and minimum macOS</title><desc id="d">Seven Mac meeting apps ordered by minimum macOS version, with price. Routine Meeting needs macOS 13, Hapi 14, Talat and Biscotti 15; MacWhisper and Meetily were not checked.</desc><rect width="900" height="484" rx="16" fill="#131519"/>
+<text x="32" y="44" font-size="18" font-weight="700" fill="#f4f4f5">Talat and six alternatives: price and minimum macOS</text>
+<text x="40" y="82" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">APP</text>
+<text x="250" y="82" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">PRICE</text>
+<text x="520" y="82" font-size="11" font-weight="700" fill="#a1a1aa" letter-spacing="1">MINIMUM MACOS</text>
+<rect x="24" y="94" width="852" height="48" rx="10" fill="#1a2a22" stroke="#3f9b6a"/>
+<text x="40" y="123" font-size="13" font-weight="700" fill="#f4f4f5">Routine Meeting</text>
+<text x="250" y="123" font-size="13" fill="#d4d4d8">Free, no recording limit</text>
+<text x="520" y="123" font-size="13" fill="#d4d4d8">13 or later</text>
+<rect x="24" y="150" width="852" height="48" rx="10" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="40" y="179" font-size="13" font-weight="700" fill="#f4f4f5">Hapi</text>
+<text x="250" y="179" font-size="13" fill="#d4d4d8">From 79 EUR once for meetings</text>
+<text x="520" y="179" font-size="13" fill="#d4d4d8">14 or later</text>
+<rect x="24" y="206" width="852" height="48" rx="10" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="40" y="235" font-size="13" font-weight="700" fill="#f4f4f5">Talat</text>
+<text x="250" y="235" font-size="13" fill="#d4d4d8">Free 10 hours, then $89/yr or $189 once</text>
+<text x="520" y="235" font-size="13" fill="#d4d4d8">15 or later</text>
+<rect x="24" y="262" width="852" height="48" rx="10" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="40" y="291" font-size="13" font-weight="700" fill="#f4f4f5">Biscotti</text>
+<text x="250" y="291" font-size="13" fill="#d4d4d8">Free</text>
+<text x="520" y="291" font-size="13" fill="#d4d4d8">15 or later</text>
+<rect x="24" y="318" width="852" height="48" rx="10" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="40" y="347" font-size="13" font-weight="700" fill="#f4f4f5">MacWhisper</text>
+<text x="250" y="347" font-size="13" fill="#d4d4d8">Free tier; Pro 64 EUR once</text>
+<text x="520" y="347" font-size="13" fill="#d4d4d8">Not checked</text>
+<rect x="24" y="374" width="852" height="48" rx="10" fill="#1a1d23" stroke="#3f3f46"/>
+<text x="40" y="403" font-size="13" font-weight="700" fill="#f4f4f5">Meetily</text>
+<text x="250" y="403" font-size="13" fill="#d4d4d8">Free community edition; PRO paid</text>
+<text x="520" y="403" font-size="13" fill="#d4d4d8">Not checked</text>
+<text x="32" y="466" font-size="11" fill="#a1a1aa">Talat per talat.app, 2026-10-23. Others per their own sites and docs, 2026-10-06 to 2026-10-11.</text></svg>
