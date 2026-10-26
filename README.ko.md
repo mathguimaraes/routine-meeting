@@ -59,7 +59,7 @@ AI 계층에는 본인의 [Gemini API 키](https://aistudio.google.com/apikey)�
 
 솔직히 말하면, Routine Meeting은 투자를 받은 플랫폼이 아니라 한 사람이 만든 macOS 앱이다. Fireflies, Fellow 등 비슷한 도구들이 제공하지만 Routine Meeting에는 없는 것들:
 
-- 회의 간 검색이나 장기적으로 검색 가능한 지식 베이스 (현재는 일일 요약으로 제한)
+- 팀 공유나 공유 지식 베이스 (노트는 Mac에 저장되며, 내 회의 전체에 대한 키워드 검색은 기본 제공)
 - CRM, Slack, 채용 도구, 다이얼러와의 연동
 - 엔터프라이즈 컴플라이언스 인증 (SOC 2, HIPAA, GDPR)
 - Windows 또는 모바일 지원

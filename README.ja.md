@@ -59,7 +59,7 @@ AIレイヤーには自分の[Gemini APIキー](https://aistudio.google.com/apik
 
 正直に言うと、Routine Meetingは資金調達を受けたプラットフォームではなく、個人が一人で作っているmacOSアプリだ。Fireflies、Fellowなどの類似ツールが提供していて、Routine Meetingが提供していないものがいくつかある。
 
-- 複数会議をまたいだ検索や長期的に検索可能なナレッジベース（現状は日次サマリーのみ）
+- チームでの共有や共有ナレッジベース（ノートはMac内に保存されます。自分の会議を横断するキーワード検索は搭載済み）
 - CRM、Slack、採用管理ツール、ダイヤラーとの連携
 - エンタープライズ向けコンプライアンス認証（SOC 2、HIPAA、GDPR）
 - WindowsやモバイルOSのサポート

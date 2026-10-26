@@ -21,6 +21,10 @@
 
 ---
 
+<div align="center">
+<img src="docs/screenshots/app-main.webp" width="760" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar">
+</div>
+
 ## The problem
 
 You join a call, and the second it gets interesting you have to choose: pay attention, or write it down. Miss the meeting's start scrambling for a notes app. Forget to hit record. Get to Friday with six meetings' worth of decisions and action items living nowhere but your memory.
@@ -59,12 +63,23 @@ Most meeting assistants, whether they use a visible bot (Fireflies, Otter) or "b
 
 To be upfront: Routine Meeting is a solo-built macOS app, not a funded platform. A few things Fireflies, Fellow, and similar tools offer that Routine Meeting doesn't:
 
-- Cross-meeting search or a long-term searchable knowledge base (currently limited to a daily rollup)
+- Team sharing or a shared knowledge base (notes stay on your Mac; keyword search across your own meetings is built in)
 - Integrations with CRMs, Slack, ATS tools, or dialers
 - Enterprise compliance certifications (SOC 2, HIPAA, GDPR)
 - Windows or mobile support
 
 If you need any of those today, a platform like Fireflies or Fellow is probably the better fit, especially for regulated industries where those certifications matter. If what you want is something that never leaves your Mac and doesn't need a bot (or a cloud account) to work, that's exactly the gap Routine Meeting fills.
+
+## Compared with other apps
+
+Written comparisons with dated sources. I build Routine Meeting, so each page says what it does worse, and [how I research and correct them](https://mathguimaraes.github.io/routine-meeting/methodology/) is public.
+
+- [Granola alternative for Mac](https://mathguimaraes.github.io/routine-meeting/blog/granola-alternative-mac/)
+- [Otter alternative for Mac](https://mathguimaraes.github.io/routine-meeting/blog/otter-alternative-mac/)
+- [MacWhisper alternative for meetings](https://mathguimaraes.github.io/routine-meeting/blog/macwhisper-alternative-for-meetings/)
+- [Talat alternatives for Mac](https://mathguimaraes.github.io/routine-meeting/blog/talat-alternative-mac/)
+- [Meetily alternatives for Mac](https://mathguimaraes.github.io/routine-meeting/blog/meetily-alternative-mac/)
+- [Meeting transcription without a bot: bot, botless and on-device](https://mathguimaraes.github.io/routine-meeting/blog/meeting-bot-vs-no-bot-vs-on-device/)
 
 ## Install
 

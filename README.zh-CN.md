@@ -59,7 +59,7 @@ AI 层使用你自己的 [Gemini API 密钥](https://aistudio.google.com/apikey)
 
 坦白说:Routine Meeting 是一个人独立开发的 macOS 应用,不是一个有资金支持的平台。Fireflies、Fellow 等类似工具提供、而 Routine Meeting 目前还没有的功能包括:
 
-- 跨会议搜索或长期可检索的知识库(目前仅限于每日汇总)
+- 团队共享或共享知识库(笔记保存在你的 Mac 上;跨你自己会议的关键词搜索已内置)
 - 与 CRM、Slack、招聘工具或拨号软件的集成
 - 企业合规认证(SOC 2、HIPAA、GDPR)
 - Windows 或移动端支持

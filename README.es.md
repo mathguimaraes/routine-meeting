@@ -59,7 +59,7 @@ La mayoría de los asistentes de reuniones, ya usen un bot visible (Fireflies, O
 
 Para ser honestos: Routine Meeting es una app de macOS hecha por una sola persona, no una plataforma con financiación. Algunas cosas que Fireflies, Fellow y herramientas similares ofrecen y Routine Meeting no:
 
-- Búsqueda entre reuniones o una base de conocimiento buscable a largo plazo (por ahora, limitado a un resumen diario)
+- Compartir con el equipo o una base de conocimiento compartida (las notas se quedan en tu Mac; la búsqueda por palabras clave entre tus reuniones ya está incluida)
 - Integraciones con CRMs, Slack, herramientas de reclutamiento o marcadores telefónicos
 - Certificaciones de cumplimiento empresarial (SOC 2, HIPAA, GDPR)
 - Soporte para Windows o móvil
