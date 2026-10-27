@@ -39,7 +39,7 @@ A Mac app can hear a call without being part of it by recording your microphone,
 Routine Meeting works this way. It starts after a short delay (about ten seconds by default) once it sees that pattern, ends by default when the call app lets go of the microphone and the system audio has been quiet for about 45 seconds, and transcribes on your Mac with WhisperKit. Your side is labeled "What you said" and everyone else's "What others said". Summaries are optional, from a local model or your own Gemini key (only transcript text is sent).
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar" width="1577" height="997" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

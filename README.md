@@ -22,7 +22,7 @@
 ---
 
 <div align="center">
-<img src="docs/screenshots/app-main.webp" width="760" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar">
+<img src="docs/screenshots/app-main.webp" width="760" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page">
 </div>
 
 ## The problem

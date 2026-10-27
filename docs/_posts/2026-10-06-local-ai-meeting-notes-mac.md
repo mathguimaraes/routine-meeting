@@ -105,7 +105,7 @@ This gives you full control and costs nothing, but you do the recording, copying
 Searches for "offline speech to text for Mac" mostly return dictation and file transcription apps such as Superwhisper, TypeWhisper and MacWhisper. Per their own descriptions, dictation apps turn your voice into text in any text field, and file transcribers convert recordings you already have. Neither starts by itself when a call begins. If you want a call recorded and summarized without pressing anything, use a meeting recorder from the list above.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the Task Radar" width="1577" height="997" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 
