@@ -33,7 +33,7 @@ O Routine Meeting fica discretamente na sua barra de menu e cuida de tudo sem vo
 
 - **Percebe que você está numa reunião e começa a gravar sozinho — em *qualquer* app.** Não é uma integração com Zoom/Meet/Teams limitada a uma lista fixa de apps suportados; ele escuta o padrão de microfone + áudio do sistema de uma conversa de verdade. Funciona do mesmo jeito no Google Meet, Zoom, Microsoft Teams, Webex, Slack huddles, Discord, FaceTime, chamadas de WhatsApp, ou uma ligação de telefone redirecionada pro seu Mac — qualquer coisa com áudio nos dois sentidos, sem configurar nada por app. Sem botão pra lembrar, sem aquele momento "nossa, isso estava sendo gravado?".
 - **Transcreve tudo no seu Mac.** O [WhisperKit](https://github.com/argmaxinc/WhisperKit) roda no Neural Engine do Apple Silicon — o áudio nunca sai da sua máquina.
-- **Sabe o que você falou e o que os outros falaram.** Microfone e áudio do sistema são capturados e separados, então resumos e insights são atribuídos à pessoa certa.
+- **Sabe o que você falou e o que os outros falaram.** Microfone e áudio do sistema são capturados e separados, então os resumos são atribuídos à pessoa certa.
 - **Transforma a transcrição em algo útil** — um título, um resumo em tópicos, itens de ação e, opcionalmente, uma leitura honesta de como você se saiu naquela conversa específica, seja um 1:1, uma call com cliente ou uma revisão de design.
 - **Junta tudo num relatório diário** — o que aconteceu hoje, em todas as reuniões, e o que você ainda deve pra alguém.
 
