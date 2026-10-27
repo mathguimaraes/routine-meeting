@@ -692,3 +692,5 @@ footer {
     transition: none !important;
   }
 }
+
+.version-list{list-style:none;padding:0;margin:12px 0 0}.version-list li{padding:12px 0;border-top:1px solid rgba(128,128,128,.25);line-height:1.5}.version-history{margin-top:40px}

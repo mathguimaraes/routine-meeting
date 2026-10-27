@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Updates
-description: Release notes and changelog for Routine Meeting.
+description: Release notes and full version history for Routine Meeting, from v1.0 to the latest release, with dates.
 permalink: /updates/
 ---
 <div class="section-inner listing-inner">
@@ -22,4 +22,23 @@ permalink: /updates/
     <p class="empty-note">Nothing here yet — check back soon.</p>
     {% endif %}
   </div>
+
+  <h2 class="version-history">Every version</h2>
+  <p class="section-lead">All releases in one list, newest first. Dates are release dates on GitHub.</p>
+  <ul class="version-list">
+    <li><strong>v1.11.0</strong> <span class="post-date">2026-10-23</span><br>AI-written home page grouped by topic. Task Radar, Insights and the morning recap removed. Cleaner on-device summaries and transcripts.</li>
+    <li><strong>v1.10.1</strong> <span class="post-date">2026-10-02</span><br>Daily Summary item removed from the menu bar.</li>
+    <li><strong>v1.10.0</strong> <span class="post-date">2026-10-02</span><br>Task Radar review and manual tasks, calendar Join in the menu bar, live recording timer, no more live transcript preview.</li>
+    <li><strong>v1.9.1</strong> <span class="post-date">2026-09-11</span><br>Fix for AI summaries failing after Google retired a Gemini fallback model.</li>
+    <li><strong>v1.9</strong> <span class="post-date">2026-09-10</span><br>Optional calendar integration for meeting titles and attendees. Google Meet tab switching no longer splits a recording. Lower CPU and RAM while recording.</li>
+    <li><strong>v1.8</strong> <span class="post-date">2026-08-10</span><br>Search across meeting titles, summaries and full transcripts from the sidebar.</li>
+    <li><strong>v1.7</strong> <span class="post-date">2026-07-30</span><br>Morning digest notification, transcription hang fix (model cache moved out of iCloud-synced folders), macOS 26 icon fix, anonymous daily usage ping (off switch in Settings, Privacy).</li>
+    <li><strong>v1.6</strong> <span class="post-date">2026-07-23</span><br>Fix for transcription hanging when the model cache sat in an iCloud-synced folder.</li>
+    <li><strong>v1.5</strong> <span class="post-date">2026-07-22</span><br>App icon fixed on macOS 26 Tahoe. Force Microphone Input recovers after repeated Bluetooth reconnects.</li>
+    <li><strong>v1.4</strong> <span class="post-date">2026-07-21</span><br>Force Microphone Input backs off automatically if it conflicts with the system input. Two automatic-summary bugs fixed.</li>
+    <li><strong>v1.3</strong> <span class="post-date">2026-07-20</span><br>App icon rescaled to Apple's standard proportions.</li>
+    <li><strong>v1.2</strong> <span class="post-date">2026-07-17</span><br>Force Microphone Input (pick a specific mic). App shows in Cmd+Tab while a window is open.</li>
+    <li><strong>v1.1</strong> <span class="post-date">2026-07-16</span><br>Storage auto-cleanup of old audio, processor log for diagnosing transcription failures, copy-transcript button.</li>
+    <li><strong>v1.0</strong> <span class="post-date">2026-07-15</span><br>First release under the Routine Meeting name (renamed from MeetingMind). Mic-recovery fix and a first-run setup wizard.</li>
+  </ul>
 </div>
