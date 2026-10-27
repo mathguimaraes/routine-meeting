@@ -2,7 +2,7 @@
 layout: default
 title: Glossary of Mac meeting recording and transcription terms
 seo_title: Glossary of meeting transcription terms
-description: Plain definitions of the terms used when comparing Mac meeting recorders: on-device transcription, botless recording, system audio capture, speaker labels, notarization and more.
+description: "Plain definitions of the terms used when comparing Mac meeting recorders: on-device transcription, botless recording, system audio capture, speaker labels, notarization and more."
 permalink: /glossary/
 ---
 
