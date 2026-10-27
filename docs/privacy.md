@@ -24,6 +24,9 @@ sends over the internet, and how to turn it off.
 - Audio is never uploaded anywhere.
 - Text leaves your Mac only if you turn on a cloud AI provider with your own
   key, and then only the transcript text goes to that provider.
+- The AI Tools on a meeting are manual: clicking one copies a prompt with the
+  transcript and opens the AI assistant you chose in your browser. That text
+  leaves your Mac only when you click.
 - The app sends one small anonymous ping per day. You can turn it off.
 
 ## What stays on your Mac
@@ -57,6 +60,7 @@ recording permission is used only to hear the other participants' audio.
 | Update check | Periodically | A request to GitHub for the update file. The app does not send your data. |
 | Model downloads | When you choose or first use a transcription model | A download of the model files from the model host. |
 | Cloud AI provider (optional) | Only if you turn it on | The transcript text is sent to the provider you choose (for example Google Gemini) using your own API key. Their privacy policy applies to that text. Audio is never sent. |
+| AI Tools on a meeting (optional) | Only when you click one | A prompt that includes the transcript is copied, and the AI assistant you chose is opened in your browser. The text goes to that assistant, and its privacy policy applies. |
 | Team sign-in (optional) | Only if you click "Sign in with Google" in Settings | Your Google sign-in with the sign-in service used for the Team feature. This feature is not finished. |
 
 If you use a local model for summaries, no transcript text leaves your Mac.
