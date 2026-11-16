@@ -92,13 +92,13 @@ Per its site, Hapi is a macOS 14 or later app that says it is 100 percent local,
 Routine Meeting is a menu-bar app that starts by itself. Instead of integrating with Zoom or Teams, it notices the pattern of a real two-way conversation (your microphone active plus audio playing from another app), so it also catches Slack huddles, Discord, FaceTime or a call relayed to the Mac, with no per-app setup.
 
 - **Capture:** your microphone plus system audio through macOS ScreenCaptureKit. No bot, no video, audio only. macOS shows its purple recording indicator while it records; that is the operating system and cannot be hidden.
-- **Transcription:** WhisperKit on your Mac's Neural Engine. Your side and the other side are transcribed separately and labeled "What you said" and "What others said".
+- **Transcription:** Parakeet v3 on your Mac (Whisper, through WhisperKit, is an option). Your side and the other side are transcribed separately and labeled "What you said" and "What others said".
 - **Summaries:** optional. You can use your own Gemini API key (only the transcript text is sent, never audio), or a fully local model through MLX with no key and no network call.
 - **Storage:** everything stays on your Mac. Old recordings are cleaned up after a number of days you choose, but only once a transcript exists. Transcripts and summaries are kept.
 - **Cost:** free, no account.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

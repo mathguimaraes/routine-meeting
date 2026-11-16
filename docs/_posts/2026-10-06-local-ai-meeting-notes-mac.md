@@ -38,7 +38,7 @@ A "local" meeting notes setup has three stages. Each can be local or cloud:
 
 ### Routine Meeting (free)
 
-Routine Meeting starts by itself when it hears the pattern of a real call, so you press nothing. It records your microphone and the system audio, then transcribes with WhisperKit on the Neural Engine, in two passes: your side and the other side, labeled separately. For summaries you choose a local model through MLX (Qwen2.5-3B, Llama-3.2-3B or Gemma-3-4B) or, optionally, your own Gemini key. The local path needs no key and makes no network call. Only one local model loads at a time, so an 8 GB Mac does not run out of memory.
+Routine Meeting starts by itself when it hears the pattern of a real call, so you press nothing. It records your microphone and the system audio, then transcribes with Parakeet v3 on your Mac (Whisper, through WhisperKit, is an option), in two passes: your side and the other side, labeled separately. For summaries you choose a local model through MLX (Qwen2.5-3B, Llama-3.2-3B or Gemma-3-4B) or, optionally, your own Gemini key. The local path needs no key and makes no network call. Only one local model loads at a time, so an 8 GB Mac does not run out of memory.
 
 Limits: closed source, speaker labels are you versus everyone else (not one name per person), no integrations, and local summaries are weaker than Gemini's.
 
@@ -79,7 +79,7 @@ Per its site, Hapi needs macOS 14 or later, says it is 100 percent local, auto-d
 
 | | Routine Meeting | Biscotti | MacParakeet | Meetily | Resonant |
 |---|---|---|---|---|---|
-| Speech to text | Local (WhisperKit) | Local (Whisper V3 Turbo) | Local | Local (Whisper / Parakeet) | Local, per its site |
+| Speech to text | Local (Parakeet v3; Whisper optional) | Local (Whisper V3 Turbo) | Local | Local (Whisper / Parakeet) | Local, per its site |
 | Summary | Local MLX model, or Gemini key | Local (Gemma) | Your provider; local with Ollama / LM Studio | Ollama or cloud | Not stated |
 | Works with Wi-Fi off | Yes, after models are downloaded | Yes, per its local claim | Yes if you use a local provider | Yes with Ollama | Yes, per its site |
 | Speaker labels | You vs others | Per person | You vs others | Pro only | Not stated |
@@ -105,7 +105,7 @@ This gives you full control and costs nothing, but you do the recording, copying
 Searches for "offline speech to text for Mac" mostly return dictation and file transcription apps such as Superwhisper, TypeWhisper and MacWhisper. Per their own descriptions, dictation apps turn your voice into text in any text field, and file transcribers convert recordings you already have. Neither starts by itself when a call begins. If you want a call recorded and summarized without pressing anything, use a meeting recorder from the list above.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

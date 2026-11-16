@@ -58,14 +58,14 @@ Per Granola's security page, checked 2026-10-06:
 A menu-bar app that starts by itself when it hears the pattern of a real call: your microphone active plus audio coming from another app. It does not depend on a list of supported apps, so Zoom, Meet, Teams, Slack huddles, Discord and FaceTime are all picked up with no per-app setup.
 
 - **Capture:** microphone plus system audio. Audio only, no video. macOS shows its purple recording indicator.
-- **Transcription:** on your Mac with WhisperKit. Your side and the other side are transcribed separately and labeled "What you said" and "What others said".
+- **Transcription:** on your Mac with Parakeet v3 (Whisper, through WhisperKit, is an option). Your side and the other side are transcribed separately and labeled "What you said" and "What others said".
 - **Summaries:** optional. A fully local model, or your own Gemini key (only transcript text is sent, never audio). It also writes a daily recap of tasks across the day's meetings.
 - **Search:** keyword search across meeting titles, summaries, insights and transcripts.
 - **Account and price:** none, and free. No history limit.
 - **Requirements:** Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

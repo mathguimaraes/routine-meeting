@@ -69,13 +69,13 @@ For privacy, compare these in [the private transcription guide]({{ '/blog/privat
 The difference from way 4 is that you never press anything. Routine Meeting is a menu-bar app that starts when it notices the pattern of a real conversation: your microphone active plus audio playing from another app. It does not integrate with Zoom or Teams, so it also catches Slack huddles, Discord, FaceTime and calls relayed to your Mac, with no per-app setup.
 
 - **Capture:** microphone plus system audio. Audio only, never video. macOS shows its purple recording indicator.
-- **Transcription:** WhisperKit on your Mac. Your side is labeled "What you said" and everyone else's "What others said".
+- **Transcription:** Parakeet v3 on your Mac (Whisper, through WhisperKit, is an option). Your side is labeled "What you said" and everyone else's "What others said".
 - **Summaries:** optional, from a local model or your own Gemini key (only transcript text is sent).
 - **Storage:** on your Mac. Old audio is deleted after the number of days you set, but only once a transcript exists.
 - **Cost and requirements:** free, no account, Apple Silicon, macOS 14.2 or later. It is closed source and in public beta.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

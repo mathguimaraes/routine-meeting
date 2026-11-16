@@ -57,7 +57,7 @@ There is also a fourth option that needs no extra app: the meeting platform's ow
 
 **On-device apps.** Capture and speech recognition both happen on your computer. Summaries are the part to check: some use a local model, some let you add your own cloud key.
 
-- **Routine Meeting:** WhisperKit on your Mac. Summaries use a local model or your own Gemini key, which sends only transcript text. Free, no account, closed source, Apple Silicon.
+- **Routine Meeting:** Parakeet v3 on your Mac (Whisper, through WhisperKit, is an option). Summaries use a local model or your own Gemini key, which sends only transcript text. Free, no account, closed source, Apple Silicon.
 - **MacWhisper:** local models. Its docs describe meeting recording as a beta.
 - **Biscotti, MacParakeet, Meetily:** local pipelines with different licenses and requirements. They are compared in [the private transcription guide]({{ '/blog/private-meeting-transcription-mac/' | relative_url }}).
 

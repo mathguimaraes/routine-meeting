@@ -37,7 +37,7 @@ If you host your own paid Zoom meetings and are happy with Zoom holding the data
 
 These apps listen to your microphone and to the sound coming out of your Mac, so they hear both sides of the call without joining it.
 
-- **Routine Meeting** (free, no account, Apple Silicon, macOS 14.2 or later, closed source, public beta): starts by itself when it notices a two-way conversation, whichever app is making the sound, so it also covers Meet, Teams and Slack huddles. WhisperKit transcribes on your Mac. Summaries use a local model or your own Gemini key.
+- **Routine Meeting** (free, no account, Apple Silicon, macOS 14.2 or later, closed source, public beta): starts by itself when it notices a two-way conversation, whichever app is making the sound, so it also covers Meet, Teams and Slack huddles. Parakeet v3 transcribes on your Mac (Whisper is an option). Summaries use a local model or your own Gemini key.
 - **MacParakeet** (free, GPL-3.0, macOS 14.2 or later, Apple Silicon): its site has a Zoom recorder page; speech recognition runs on your Mac, and summaries go to the provider you configure.
 - **Whisper Notes** ($14 once on Mac, per its site): on-device transcription with offline meeting recording on the direct-download version.
 - **Granola** (free plan with 30-day history): captures on your Mac but uses third-party transcription providers, so audio leaves your computer.
@@ -65,7 +65,7 @@ This is the flow Routine Meeting's setup guide walks you through. I have describ
 7. **Read the transcript.** Your side is labeled "What you said" and everyone else's "What others said".
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

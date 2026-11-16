@@ -47,12 +47,12 @@ Meetings add three things a file does not: someone has to **start** the recordin
 
 - **Start:** it watches for the pattern of a real conversation, your microphone active plus audio from another app, and starts after a short delay (about ten seconds by default). No notification to click, and no list of supported apps, so Slack huddles, Discord and FaceTime are covered too.
 - **Stop:** by default it ends when the meeting app lets go of the microphone and the system audio has been quiet for about 45 seconds. Auto-end is a setting you can turn off.
-- **Transcript:** WhisperKit on your Mac. Your side is labeled "What you said" and everyone else's "What others said".
+- **Transcript:** Parakeet v3 on your Mac (Whisper, through WhisperKit, is an option). Your side is labeled "What you said" and everyone else's "What others said".
 - **Summaries:** optional, from a local model or your own Gemini key (only transcript text is sent).
 - **Cost and requirements:** free, no account, Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ Meetings add three things a file does not: someone has to **start** the recordin
 | Account | Not stated | None |
 | Source | Closed | Closed |
 
-Routine Meeting is only for live meetings, so it does not replace MacWhisper's file transcription, dictation or exports. Many people could reasonably use both.
+Routine Meeting is mainly for live meetings, so it does not replace MacWhisper's file transcription or exports. It now has a dictation mode of its own (hold Fn, in beta), but it is new, while MacWhisper is the more mature tool for dictation. Many people could reasonably use both.
 
 ## Limits of Routine Meeting
 

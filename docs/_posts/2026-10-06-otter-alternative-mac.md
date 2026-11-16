@@ -82,13 +82,13 @@ For recorded files, use a file transcriber on your Mac. MacWhisper and Whisper N
 A menu-bar app that starts by itself when it hears the pattern of a real call: your microphone active plus audio coming from another app. That means it also catches Slack huddles, Discord, FaceTime and calls relayed to your Mac, with no per-app setup.
 
 - **Capture:** microphone plus system audio through macOS ScreenCaptureKit. Audio only, no video. macOS shows its purple recording indicator.
-- **Transcription:** WhisperKit on your Mac's Neural Engine, with your side and the other side transcribed separately and labeled "What you said" and "What others said".
+- **Transcription:** Parakeet v3 on your Mac (Whisper, through WhisperKit, is an option), with your side and the other side transcribed separately and labeled "What you said" and "What others said".
 - **Summaries:** optional. Use a fully local model (no key, no network call), or your own Gemini key, which sends the transcript text, never the audio.
 - **Account and price:** none and free.
 - **Requirements:** Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

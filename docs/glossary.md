@@ -32,11 +32,15 @@ Short definitions of the terms that come up when you compare meeting recorders o
 
 ## Transcription and speakers
 
-**On-device transcription.** Turning speech into text on your own Mac, so the audio is not uploaded. Quality and speed depend on the model and the chip. Routine Meeting uses WhisperKit on Apple Silicon.
+**On-device transcription.** Turning speech into text on your own Mac, so the audio is not uploaded. Quality and speed depend on the model and the chip. Routine Meeting uses Parakeet v3 by default, with Whisper (through WhisperKit) as an option, on Apple Silicon.
 
 **Whisper.** An open speech recognition model from OpenAI. Many Mac apps run it locally in some form.
 
-**WhisperKit.** An open-source framework that runs Whisper models on Apple devices using the Neural Engine. It is what Routine Meeting uses for transcription.
+**WhisperKit.** An open-source framework that runs Whisper models on Apple devices using the Neural Engine. Routine Meeting offers it as an option next to Parakeet.
+
+**Parakeet.** NVIDIA's family of speech recognition models. Routine Meeting uses Parakeet v3, run on your Mac through the open-source FluidAudio library, for meeting transcription and dictation. Whisper is still available as an option.
+
+**Dictation.** Speaking to type: you hold a key, talk, and the text is pasted where your cursor is. Routine Meeting has a dictation mode (hold Fn, in beta) that transcribes on your Mac.
 
 **Apple Silicon.** Apple's own Mac chips (M1 and later). Local transcription and local summaries run much faster on them than on Intel Macs, and Routine Meeting requires one.
 

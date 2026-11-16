@@ -52,7 +52,7 @@ A 1:1 is not a normal meeting. Check these first:
 A menu-bar app that starts by itself when it hears the pattern of a real call: your microphone active plus audio coming from another app. It does not care which app makes the sound, so a Zoom 1:1, a Slack huddle, a FaceTime call or a phone call relayed to your Mac are all captured with no per-app setup.
 
 - **Capture:** microphone plus system audio. Audio only, no video. macOS shows its purple recording indicator.
-- **Transcription:** on your Mac, with WhisperKit. Your side and the other side are transcribed separately and labeled "What you said" and "What others said". In a two-person 1:1 that is effectively one name per person.
+- **Transcription:** on your Mac, with Parakeet v3 (Whisper, through WhisperKit, is an option). Your side and the other side are transcribed separately and labeled "What you said" and "What others said". In a two-person 1:1 that is effectively one name per person.
 - **Summaries:** optional. A local model with no key and no network call, or your own Gemini key (only the transcript text is sent, never the audio).
 - **Insights:** an optional pass that first works out what kind of meeting it was (a 1:1, a standup, a client call and so on) and then comments only on what matters for that kind. If the meeting was low stakes, it says there is nothing notable instead of inventing coaching.
 - **Storage:** on your Mac. Audio is deleted after a number of days you choose, but only once a transcript exists. Transcripts and summaries stay.
@@ -60,7 +60,7 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 - **Requirements:** Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
-  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
+  <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
   <figcaption>Routine Meeting's main window on a Mac.</figcaption>
 </figure>
 

@@ -54,8 +54,10 @@ If something about your app or about Routine Meeting is wrong, tell me through [
 | Date | Page | What was wrong | What changed |
 |---|---|---|---|
 | 2026-10-21 | Homepage | The "what it does not do" list said the app has no cross-meeting search and offers only a daily rollup. Keyword search across meetings shipped in v1.8 (2026-08-10). | The line now says team sharing is missing and that keyword search across your own meetings is built in. |
+| 2026-11-16 | Homepage, READMEs and comparison posts | Several pages said Routine Meeting needs macOS 13 or later. The app has required macOS 14.2 since 1.12.3. | The requirement now reads macOS 14.2 or later. |
+| 2026-11-16 | Comparison posts and glossary | The posts said Routine Meeting transcribes with WhisperKit, that its main window shows a "What you're discussing" home page, and (in one post) that it has no dictation. Version 1.13 (2026-11-16) switched meeting transcription to Parakeet v3, kept Whisper as an option, retired that home page and added a beta dictation mode. | Each statement about Routine Meeting now matches version 1.13. Statements about other apps are unchanged. The glossary has new Parakeet and Dictation entries. |
 
-No other corrections have been recorded since the comparison posts started on 2026-10-06. This log will list every future change, including small ones.
+This log lists every correction since the comparison posts started on 2026-10-06, including small ones.
 
 </div>
 </div>
