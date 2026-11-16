@@ -7,6 +7,8 @@ date: 2026-10-02
 version: "1.10.0"
 ---
 
+> **Update:** Task Radar described below was retired in [v1.11](/routine-meeting/updates/v1-11-ai-home-page/).
+
 Routine Meeting 1.10 is mostly about Task Radar, plus calendar and recording changes.
 
 **Task Radar**

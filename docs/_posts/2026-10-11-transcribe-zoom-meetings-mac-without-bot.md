@@ -56,12 +56,12 @@ If you are allowed to record in Zoom, or you capture the screen with QuickTime, 
 
 This is the flow Routine Meeting's setup guide walks you through. I have described it from the app's design, so test it on your own Zoom call before relying on it.
 
-1. **Install and open it.** It lives in the menu bar and has no Dock icon.
+1. **Install and open it.** It lives in the menu bar and has no Dock icon unless a window is open.
 2. **Allow Microphone.** This is how it hears you.
 3. **Allow Screen & System Audio Recording.** The name sounds alarming, but only audio is captured, never video or screen content. This is how it hears everyone else on the call.
 4. **Turn on Launch at Login.** The app is only useful if it is running when a call starts.
 5. **Choose summaries.** Either a local model with no key, or your own Gemini key (only transcript text is sent). Skip this if you only want the transcript.
-6. **Join your Zoom call as usual.** Recording starts after a short delay (about ten seconds by default) once it sees your microphone active and audio playing from another app. It stops after the call ends.
+6. **Join your Zoom call as usual.** Recording starts after a short delay (5 seconds by default, and only once it also hears audio from another app) once it sees your microphone active and audio playing from another app. It stops after the call ends.
 7. **Read the transcript.** Your side is labeled "What you said" and everyone else's "What others said".
 
 <figure class="post-figure">

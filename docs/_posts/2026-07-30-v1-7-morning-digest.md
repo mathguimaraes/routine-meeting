@@ -7,6 +7,8 @@ date: 2026-07-30
 version: "1.7"
 ---
 
+> **Update:** the morning digest described below was retired in [v1.11](/routine-meeting/updates/v1-11-ai-home-page/).
+
 The headline fix in 1.7 is one that took a while to pin down: transcription could hang indefinitely for some users, and the root cause turned out to be where the WhisperKit and local-LLM model cache lived — inside `~/Documents`, which iCloud Drive can partially sync and evict files from on demand, including mid-transcription. The cache now lives in Application Support instead, outside iCloud's sync scope entirely.
 
 Alongside that:

@@ -31,7 +31,7 @@ A "local" meeting notes setup has three stages. Each can be local or cloud:
 ## Hardware: what you need
 
 - **Apple Silicon** (M1 or later). Every on-device app below targets it, and so does Whisper acceleration.
-- **RAM matters for summaries, not for transcription.** A local summary model takes a few gigabytes while it runs. On an 8 GB Mac, run only one model at a time; on 16 GB or more you have room to spare.
+- **RAM matters for summaries, not for transcription.** A local summary model takes a few gigabytes while it runs. Only one model loads at a time, and on a Mac with little spare memory the app holds a summary back until there is room (and while a recording or transcription is running), so it can take longer on an 8 GB Mac. On 16 GB or more you have room to spare.
 - **Disk:** models are downloaded once. Recordings can be large, so pick an app with automatic cleanup.
 
 ## The apps, step by step
@@ -142,7 +142,7 @@ A small on-device model is private and works anywhere, but it is less reliable o
 
 **Is local transcription accurate?** Whisper-family models are strong on clear speech. Accuracy drops with overlapping talk, noise and accents, and a larger model is slower.
 
-**Will it work on an 8 GB Mac?** Transcription usually does. Run one summary model at a time and close other heavy apps.
+**Will it work on an 8 GB Mac?** Transcription usually does. Only one summary model loads at a time, and the app waits for spare memory before starting one, so summaries may be slower; closing other heavy apps helps.
 
 **Does local mean no consent needed?** No. Recording laws still apply. Tell participants before recording.
 

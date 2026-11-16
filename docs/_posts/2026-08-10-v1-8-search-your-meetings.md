@@ -7,6 +7,8 @@ date: 2026-08-10
 version: "1.8"
 ---
 
+> **Update:** search no longer covers insights, which were retired in [v1.11](/routine-meeting/updates/v1-11-ai-home-page/). It now matches title, attendee names and emails, summary and transcript.
+
 Routine Meeting 1.8 adds search to the Meetings sidebar. Type a few words and it filters across the meeting title, AI summary, insights, and the full transcript text — so you don't need to remember which meeting something was said in, just roughly what was said.
 
 Also fixed a small toolbar layout issue where the "Meetings" label sat too close to the edge of its pill.

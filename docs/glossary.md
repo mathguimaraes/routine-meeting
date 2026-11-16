@@ -22,13 +22,13 @@ Short definitions of the terms that come up when you compare meeting recorders o
 
 **Botless recording.** Recording from your own computer's audio instead of sending a bot into the call. Nobody sees an extra attendee. It does not remove the need to tell people you are recording where consent is required.
 
-**System audio capture.** Recording the sound your Mac is playing, which is where the other people on a call are heard. On macOS this uses Apple's ScreenCaptureKit, and the system shows a purple recording indicator while it runs. Video and screen content are not part of the audio capture.
+**System audio capture.** Recording the sound your Mac is playing, which is where the other people on a call are heard. On macOS this uses a Core Audio tap (macOS 14.2 or later), and the system shows a purple recording indicator while it runs. Video and screen content are not part of the audio capture.
 
 **Microphone track.** The recording of your own voice from the mic, kept separate from system audio. Keeping the two apart is what lets an app label "you" and "everyone else" without guessing.
 
 **App-agnostic detection.** Noticing that a call is happening from the pattern of microphone and system audio, instead of integrating with Zoom, Meet or Teams one by one. Routine Meeting detects meetings this way, so Slack huddles, FaceTime and Discord work too. See [how to record those](/routine-meeting/blog/transcribe-slack-huddles-facetime-discord-mac/).
 
-**Menu-bar app.** An app that lives in the macOS menu bar with no Dock icon while it runs. Routine Meeting is one.
+**Menu-bar app.** An app that lives in the macOS menu bar with no Dock icon unless one of its windows is open. Routine Meeting is one.
 
 ## Transcription and speakers
 

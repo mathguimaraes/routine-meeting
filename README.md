@@ -39,8 +39,7 @@ Routine Meeting sits quietly in your menu bar and handles the whole thing withou
 - **Transcribes it entirely on your Mac.** Parakeet v3 (through [FluidAudio](https://github.com/FluidInference/FluidAudio)) transcribes an hour-long call in a few minutes; [WhisperKit](https://github.com/argmaxinc/WhisperKit) is still available as an option — audio never leaves your machine.
 - **Dictates in any app (beta).** Hold Fn, speak, release — the text is transcribed on-device and pasted where your cursor is.
 - **Knows what you said vs. what everyone else said.** Mic and system audio are captured and split separately, so summaries are attributed to the right person.
-- **Turns the transcript into something useful** — a title, a bullet summary, action items, and (optionally) an honest read on how you performed in that specific conversation, whether it was a 1:1, a client call, or a design review.
-- **Rolls it all up into a daily report** — what happened today, across every meeting, and what you still owe someone.
+- **Turns the transcript into something useful** — a title, a bullet summary and action items.
 
 You bring your own [Gemini API key](https://aistudio.google.com/apikey) for the AI layer (the free tier comfortably covers personal use) — or skip the key entirely and run a local model on-device.
 

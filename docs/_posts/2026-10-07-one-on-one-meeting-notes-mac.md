@@ -54,7 +54,6 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 - **Capture:** microphone plus system audio. Audio only, no video. macOS shows its purple recording indicator.
 - **Transcription:** on your Mac, with Parakeet v3 (Whisper, through WhisperKit, is an option). Your side and the other side are transcribed separately and labeled "What you said" and "What others said". In a two-person 1:1 that is effectively one name per person.
 - **Summaries:** optional. A local model with no key and no network call, or your own Gemini key (only the transcript text is sent, never the audio).
-- **Insights:** an optional pass that first works out what kind of meeting it was (a 1:1, a standup, a client call and so on) and then comments only on what matters for that kind. If the meeting was low stakes, it says there is nothing notable instead of inventing coaching.
 - **Storage:** on your Mac. Audio is deleted after a number of days you choose, but only once a transcript exists. Transcripts and summaries stay.
 - **Account and price:** none, and free.
 - **Requirements:** Apple Silicon, macOS 14.2 or later.

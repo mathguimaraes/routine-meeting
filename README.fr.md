@@ -35,8 +35,7 @@ Routine Meeting reste discrètement dans votre barre de menu et s'occupe de tout
 - **Transcrit tout sur votre Mac.** Parakeet v3 (via [FluidAudio](https://github.com/FluidInference/FluidAudio)) transcrit une réunion d'une heure en quelques minutes ; [WhisperKit](https://github.com/argmaxinc/WhisperKit) reste disponible en option — l'audio ne quitte jamais votre machine.
 - **Dicte dans n'importe quelle app (bêta).** Maintenez Fn, parlez, relâchez — le texte est transcrit sur votre Mac et collé là où se trouve le curseur.
 - **Sait ce que vous avez dit et ce que les autres ont dit.** Le micro et l'audio système sont capturés et séparés, donc les résumés sont attribués à la bonne personne.
-- **Transforme la transcription en quelque chose d'utile** — un titre, un résumé à puces, des actions à mener et, en option, un retour honnête sur votre performance dans cette conversation précise, que ce soit un 1:1, un appel client ou une revue de design.
-- **Regroupe tout dans un rapport quotidien** — ce qui s'est passé aujourd'hui, à travers toutes les réunions, et ce que vous devez encore à quelqu'un.
+- **Transforme la transcription en quelque chose d'utile** — un titre, un résumé à puces et des actions à mener.
 
 Vous utilisez votre propre [clé API Gemini](https://aistudio.google.com/apikey) pour la couche IA (le niveau gratuit couvre largement un usage personnel) — ou vous vous passez complètement de clé et faites tourner un modèle local sur l'appareil.
 

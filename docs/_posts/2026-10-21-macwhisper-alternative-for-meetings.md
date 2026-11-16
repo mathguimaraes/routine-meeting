@@ -45,7 +45,7 @@ Meetings add three things a file does not: someone has to **start** the recordin
 
 ## How Routine Meeting handles the same steps
 
-- **Start:** it watches for the pattern of a real conversation, your microphone active plus audio from another app, and starts after a short delay (about ten seconds by default). No notification to click, and no list of supported apps, so Slack huddles, Discord and FaceTime are covered too.
+- **Start:** it watches for the pattern of a real conversation, your microphone active plus audio from another app, and starts after a short delay (5 seconds by default, and only once it also hears audio from another app). No notification to click, and no list of supported apps, so Slack huddles, Discord and FaceTime are covered too.
 - **Stop:** by default it ends when the meeting app lets go of the microphone and the system audio has been quiet for about 45 seconds. Auto-end is a setting you can turn off.
 - **Transcript:** Parakeet v3 on your Mac (Whisper, through WhisperKit, is an option). Your side is labeled "What you said" and everyone else's "What others said".
 - **Summaries:** optional, from a local model or your own Gemini key (only transcript text is sent).

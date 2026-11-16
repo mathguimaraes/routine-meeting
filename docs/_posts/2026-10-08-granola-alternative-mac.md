@@ -59,8 +59,8 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 
 - **Capture:** microphone plus system audio. Audio only, no video. macOS shows its purple recording indicator.
 - **Transcription:** on your Mac with Parakeet v3 (Whisper, through WhisperKit, is an option). Your side and the other side are transcribed separately and labeled "What you said" and "What others said".
-- **Summaries:** optional. A fully local model, or your own Gemini key (only transcript text is sent, never audio). It also writes a daily recap of tasks across the day's meetings.
-- **Search:** keyword search across meeting titles, summaries, insights and transcripts.
+- **Summaries:** optional. A fully local model, or your own Gemini key (only transcript text is sent, never audio).
+- **Search:** keyword search across meeting titles, attendee names and emails, summaries and transcripts.
 - **Account and price:** none, and free. No history limit.
 - **Requirements:** Apple Silicon, macOS 14.2 or later.
 
