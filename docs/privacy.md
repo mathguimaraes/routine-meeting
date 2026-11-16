@@ -11,7 +11,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-Last updated: September 20, 2026
+Last updated: November 16, 2026
 
 Routine Meeting is a Mac app that records and transcribes your meetings on
 your own computer. This page explains what stays on your Mac, what the app
@@ -34,6 +34,7 @@ sends over the internet, and how to turn it off.
 - Recordings (microphone and system audio), transcripts, summaries, action
   items, insights and daily recaps.
 - Your settings and any API keys you enter.
+- Dictation is transcribed on your Mac and its temporary recording is deleted right after. A debug switch in Settings can keep your last 20 dictation recordings on your Mac; it is off by default.
 - By default, the raw audio of a meeting is deleted 7 days after it has been
   transcribed. You can change this in Settings, or delete meetings yourself.
   Transcripts and summaries are kept until you delete them.
@@ -48,7 +49,8 @@ recording permission is used only to hear the other participants' audio.
 | Microphone | To detect and record your side of a meeting. |
 | Screen and system audio recording | To record the other participants' audio. Audio only. |
 | Notifications | To tell you when a transcript or daily recap is ready. |
-| Accessibility (optional) | To paste your meeting prompt into an AI assistant, and to notice when you move straight from one meeting into another. |
+| Accessibility (optional) | To paste your meeting prompt into an AI assistant, to paste dictated text where your cursor is, and to notice when you move straight from one meeting into another. |
+| Input Monitoring (optional) | To detect the Fn key for dictation. Asked for only when you set dictation up. |
 | Automation for Google Chrome (optional) | To check whether your meeting tab is still open. |
 | Calendar (optional, only if you turn it on in Settings) | To name meetings after the real event and identify attendees. |
 
@@ -58,12 +60,12 @@ recording permission is used only to hear the other participants' audio.
 |---|---|---|
 | Anonymous usage ping | Once a day, on by default | A random ID created on your Mac and the app version. No meeting content, name or email. As with any web request, the server can see your IP address. |
 | Update check | Periodically | A request to GitHub for the update file. The app does not send your data. |
-| Model downloads | When you choose or first use a transcription model | A download of the model files from the model host. |
+| Model downloads | When you choose or first use a transcription model (Whisper or Parakeet) | A download of the model files from the model host. |
 | Cloud AI provider (optional) | Only if you turn it on | The transcript text is sent to the provider you choose (for example Google Gemini) using your own API key. Their privacy policy applies to that text. Audio is never sent. |
 | AI Tools on a meeting (optional) | Only when you click one | A prompt that includes the transcript is copied, and the AI assistant you chose is opened in your browser. The text goes to that assistant, and its privacy policy applies. |
 | Team sign-in (optional) | Only if you click "Sign in with Google" in Settings | Your Google sign-in with the sign-in service used for the Team feature. This feature is not finished. |
 
-If you use a local model for summaries, no transcript text leaves your Mac.
+If you use a local model for summaries, no transcript text leaves your Mac. Dictation and its optional AI polish also run on your Mac.
 
 ## How to turn things off
 

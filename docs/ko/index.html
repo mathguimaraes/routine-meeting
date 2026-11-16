@@ -9,7 +9,7 @@
   <meta name="description"
     content="회의를 자동 감지해 Mac에서 녹음·전사하고 요약과 할 일을 만들어 주는 무료 Mac 앱. 봇도, 계정도 필요 없습니다." />
   <meta name="keywords"
-    content="회의 녹음, mac 자동 회의 녹음, 로컬 전사, 온디바이스 전사, macOS 회의 메모, AI 회의 요약, 봇 없는 회의 녹음, WhisperKit, Zoom 녹음 mac, Google Meet 녹음 mac, 오프라인 전사 mac" />
+    content="회의 녹음, mac 자동 회의 녹음, 로컬 전사, 온디바이스 전사, macOS 회의 메모, AI 회의 요약, 봇 없는 회의 녹음, WhisperKit, Parakeet, 받아쓰기, Zoom 녹음 mac, Google Meet 녹음 mac, 오프라인 전사 mac" />
   <meta name="author" content="Matheus Guimarães" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://mathguimaraes.github.io/routine-meeting/ko/" />
@@ -80,9 +80,10 @@
     "featureList": [
       "앱과 무관한 자동 회의 감지",
       "100% 온디바이스 녹음 및 전사",
+      "Parakeet v3 기반 온디바이스 전사 (Whisper 선택 가능)",
       "마이크와 시스템 오디오 분리 캡처",
       "AI 요약 및 액션 아이템",
-      "모든 회의에서 논의 중인 내용을 요약하는 홈 화면",
+      "Fn 키로 어떤 앱에서든 받아쓰기 (베타)",
       "직접 키 사용 또는 완전 로컬 AI",
       "계정 불필요, 구독 불필요"
     ]
@@ -123,7 +124,7 @@
     </div>
     <p class="hero-meta">무료 · Apple Silicon · macOS 13 이상 · 계정 불필요</p>
     <div class="hero-shot">
-      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting 메인 창: 회의 목록, 주간 통계, "지금 논의 중인 내용" 홈 화면" fetchpriority="high" />
+      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting 메인 창: 회의 목록, 주간 통계, 최근 회의" fetchpriority="high" />
     </div>
   </header>
 
@@ -141,7 +142,7 @@
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2"/></svg></div>
           <h3>기기에서 완전히 전사</h3>
-          <p>WhisperKit이 Apple Silicon Neural Engine에서 실행됩니다. 클라우드 요약을 명시적으로 활성화하지 않는 한 오디오는 Mac 밖으로 나가지 않습니다.</p>
+          <p>Parakeet v3가 Mac에서 실행되어 1시간짜리 회의를 몇 분 만에 전사합니다. Whisper도 옵션으로 계속 사용할 수 있습니다. 클라우드 요약을 명시적으로 켜지 않는 한 오디오는 Mac 밖으로 나가지 않습니다.</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16.5 4.8a3.2 3.2 0 0 1 0 6.4"/><path d="M18.5 14.2A6 6 0 0 1 21 19.5"/></svg></div>
@@ -154,9 +155,9 @@
           <p>모든 회의에 제목, 요점 요약, 전체 전사본이 생깁니다. 한 번의 클릭으로 AI 도구가 후속 이메일 초안을 쓰고, 액션 아이템과 핵심 결정을 뽑아내거나, 원하는 질문에 답합니다 — 선택한 AI 어시스턴트에서요.</p>
         </div>
         <div class="card">
-          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="8.5" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="5" rx="1.8"/><rect x="13.5" y="11.5" width="7" height="9" rx="1.8"/><rect x="3.5" y="15" width="7" height="5.5" rx="1.8"/></svg></div>
-          <h3>모든 회의를 위한 하나의 홈 화면</h3>
-          <p>대화는 제품, 고객, 영업 등 업무 영역별로 정리되며, 각 영역에는 날짜별 타임라인, 결정 사항, 열린 질문이 담깁니다. 통화가 끝날 때마다 업데이트되고 기본적으로 기기에서 실행됩니다.</p>
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/><path d="M12 18v3"/></svg></div>
+          <h3>Fn 키로 어떤 앱에서든 받아쓰기 (베타)</h3>
+          <p>Fn을 누른 채 말하고 놓으면 Mac에서 전사되어 사용 중인 앱에 붙여넣어집니다. 선택 사항인 AI 다듬기가 군말과 문장부호를 정리합니다. 단축키를 설정할 때만 입력 모니터링과 손쉬운 사용 권한을 요청합니다.</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15.5" r="4.5"/><path d="M11.2 12.3 20 3.5"/><path d="m16.5 7 2.5 2.5"/><path d="m14.5 9 1.8 1.8"/></svg></div>

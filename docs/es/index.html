@@ -9,7 +9,7 @@
   <meta name="description"
     content="App gratis para Mac que detecta tus reuniones, las graba y transcribe en tu equipo, y crea resúmenes y tareas. Sin bot, sin cuenta." />
   <meta name="keywords"
-    content="grabador de reuniones, grabador automático de reuniones mac, transcripción local, transcripción en el dispositivo, notas de reuniones macOS, resumen de reuniones con IA, grabador de reuniones sin bot, WhisperKit, grabador Zoom mac, grabador Google Meet mac, transcripción offline mac" />
+    content="grabador de reuniones, grabador automático de reuniones mac, transcripción local, transcripción en el dispositivo, notas de reuniones macOS, resumen de reuniones con IA, grabador de reuniones sin bot, WhisperKit, Parakeet, dictado, grabador Zoom mac, grabador Google Meet mac, transcripción offline mac" />
   <meta name="author" content="Matheus Guimarães" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://mathguimaraes.github.io/routine-meeting/es/" />
@@ -80,9 +80,10 @@
     "featureList": [
       "Detección automática de reuniones, sin importar la app",
       "Grabación y transcripción 100% en el dispositivo",
+      "Transcripción en el dispositivo con Parakeet v3 (Whisper opcional)",
       "Separación de audio de micrófono y del sistema",
       "Resúmenes con IA y tareas pendientes",
-      "Página de inicio que resume de qué hablas en todas tus reuniones",
+      "Dictado en cualquier app con la tecla Fn (beta)",
       "Trae tu propia clave o IA totalmente local",
       "Sin cuenta, sin suscripción"
     ]
@@ -124,7 +125,7 @@
     </div>
     <p class="hero-meta">Gratis · Apple Silicon · macOS 13+ · Sin cuenta requerida</p>
     <div class="hero-shot">
-      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Ventana principal de Routine Meeting: lista de reuniones, estadísticas semanales y la página de inicio "De qué estás hablando"" fetchpriority="high" />
+      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Ventana principal de Routine Meeting: lista de reuniones, estadísticas semanales y reuniones recientes" fetchpriority="high" />
     </div>
   </header>
 
@@ -145,8 +146,7 @@
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2"/></svg></div>
           <h3>Transcribe todo en tu dispositivo</h3>
-          <p>WhisperKit corre en el Neural Engine de Apple Silicon. El audio nunca sale de tu Mac salvo que actives
-            explícitamente los resúmenes en la nube.</p>
+          <p>Parakeet v3 se ejecuta en tu Mac y transcribe una reunión de una hora en pocos minutos; Whisper sigue disponible como opción. El audio nunca sale de tu Mac salvo que actives los resúmenes en la nube.</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16.5 4.8a3.2 3.2 0 0 1 0 6.4"/><path d="M18.5 14.2A6 6 0 0 1 21 19.5"/></svg></div>
@@ -159,9 +159,9 @@
           <p>Cada reunión tiene un título, un resumen en puntos y la transcripción completa. Con un clic, las herramientas de IA redactan un email de seguimiento, extraen tareas y decisiones clave o responden tu propia pregunta, en el asistente de IA que elijas.</p>
         </div>
         <div class="card">
-          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="8.5" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="5" rx="1.8"/><rect x="13.5" y="11.5" width="7" height="9" rx="1.8"/><rect x="3.5" y="15" width="7" height="5.5" rx="1.8"/></svg></div>
-          <h3>Una página de inicio para todas tus reuniones</h3>
-          <p>Las conversaciones se agrupan por áreas de trabajo — producto, clientes, ventas y más — cada una con una línea de tiempo, decisiones y preguntas abiertas. Se actualiza después de cada llamada y funciona en tu dispositivo por defecto.</p>
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/><path d="M12 18v3"/></svg></div>
+          <h3>Dicta en cualquier app con la tecla Fn (beta)</h3>
+          <p>Mantén Fn, habla y suelta: lo que dices se transcribe en tu Mac y se pega en la app en la que estás. El pulido opcional con IA limpia muletillas y puntuación. Requiere los permisos de Monitorización de entrada y Accesibilidad, que solo se piden cuando configuras el atajo.</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15.5" r="4.5"/><path d="M11.2 12.3 20 3.5"/><path d="m16.5 7 2.5 2.5"/><path d="m14.5 9 1.8 1.8"/></svg></div>

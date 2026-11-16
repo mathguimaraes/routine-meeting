@@ -32,7 +32,8 @@ Die meisten Aufnahme-Tools machen es schlimmer, nicht besser — man muss selbst
 Routine Meeting sitzt still in deiner Menüleiste und erledigt alles, ohne dass du fragen musst:
 
 - **Merkt, dass du in einem Meeting bist, und startet die Aufnahme von selbst — in *jeder* App.** Es ist keine Zoom/Meet/Teams-Integration mit einer festen Liste unterstützter Apps; es hört auf das Muster aus Mikrofon- und Systemaudio eines echten Gesprächs. Das funktioniert genauso mit Google Meet, Zoom, Microsoft Teams, Webex, Slack Huddles, Discord, FaceTime, WhatsApp-Anrufen oder einem Telefonanruf, der über deinen Mac läuft — alles mit Audio in beide Richtungen, ohne App-spezifische Einrichtung. Kein Knopf, an den man denken muss, kein "Moment, wurde das gerade aufgenommen?".
-- **Transkribiert alles auf deinem Mac.** [WhisperKit](https://github.com/argmaxinc/WhisperKit) läuft auf der Apple-Silicon-Neural-Engine — das Audio verlässt nie dein Gerät.
+- **Transkribiert alles auf deinem Mac.** Parakeet v3 (über [FluidAudio](https://github.com/FluidInference/FluidAudio)) transkribiert ein einstündiges Meeting in wenigen Minuten; [WhisperKit](https://github.com/argmaxinc/WhisperKit) bleibt als Option verfügbar — das Audio verlässt nie dein Gerät.
+- **Diktiert in jeder App (Beta).** Fn halten, sprechen, loslassen — der Text wird auf dem Mac transkribiert und dort eingefügt, wo der Cursor steht.
 - **Weiß, was du gesagt hast und was die anderen gesagt haben.** Mikrofon und Systemaudio werden getrennt aufgenommen, sodass Zusammenfassungen der richtigen Person zugeordnet werden.
 - **Macht aus dem Transkript etwas Nützliches** — einen Titel, eine Stichpunkt-Zusammenfassung, Aufgaben und optional eine ehrliche Einschätzung, wie du dich in diesem konkreten Gespräch geschlagen hast, egal ob 1:1, Kundengespräch oder Design-Review.
 - **Fasst alles in einem Tagesbericht zusammen** — was heute in allen Meetings passiert ist und was du jemandem noch schuldest.

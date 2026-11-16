@@ -9,7 +9,7 @@
   <meta name="description"
     content="Free Mac app that detects your meetings, records and transcribes them on-device, and writes summaries and action items. No bot, no account." />
   <meta name="keywords"
-    content="meeting recorder, automatic meeting recorder mac, local transcription, on-device transcription, macOS meeting notes, AI meeting summary, privacy first meeting recorder, no bot meeting recorder, WhisperKit, Zoom recorder mac, Google Meet recorder mac, offline transcription mac" />
+    content="meeting recorder, automatic meeting recorder mac, local transcription, on-device transcription, macOS meeting notes, AI meeting summary, privacy first meeting recorder, no bot meeting recorder, WhisperKit, Parakeet, dictation, Zoom recorder mac, Google Meet recorder mac, offline transcription mac" />
   <meta name="author" content="Matheus Guimarães" />
   <meta name="google-site-verification" content="dhILg3TT6sMvNqgvJUJCCyni_o1IFndvKGJE02Q_qYE" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -81,9 +81,10 @@
     "featureList": [
       "Automatic app-agnostic meeting detection",
       "100% on-device recording and transcription",
+      "On-device transcription with Parakeet v3 (Whisper optional)",
       "Speaker-split mic vs. system audio",
       "AI summaries and action items",
-      "A home page that summarizes what you're discussing across all meetings",
+      "Dictation in any app with the Fn key (beta)",
       "Bring-your-own-key or fully local AI",
       "No account, no subscription"
     ]
@@ -127,7 +128,7 @@
     </div>
     <p class="hero-meta">Free · Apple Silicon · macOS 13+ · No account required</p>
     <div class="hero-shot">
-      <img src="screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" fetchpriority="high" />
+      <img src="screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting main window: meeting list, weekly stats and recent meetings" fetchpriority="high" />
     </div>
   </header>
 
@@ -147,8 +148,7 @@
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2"/></svg></div>
           <h3>Transcribes entirely on-device</h3>
-          <p>WhisperKit runs on the Apple Silicon Neural Engine. Audio never leaves your Mac unless you explicitly
-            turn on cloud summaries.</p>
+          <p>Parakeet v3 runs on your Mac and transcribes an hour-long call in a few minutes; Whisper is still available as an option. Audio never leaves your Mac unless you explicitly turn on cloud summaries.</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16.5 4.8a3.2 3.2 0 0 1 0 6.4"/><path d="M18.5 14.2A6 6 0 0 1 21 19.5"/></svg></div>
@@ -161,9 +161,9 @@
           <p>Every meeting gets a title, a bullet summary and the full transcript. One-click AI tools draft a follow-up email, pull out action items and key decisions, or answer your own question — in the AI assistant you choose.</p>
         </div>
         <div class="card">
-          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="8.5" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="5" rx="1.8"/><rect x="13.5" y="11.5" width="7" height="9" rx="1.8"/><rect x="3.5" y="15" width="7" height="5.5" rx="1.8"/></svg></div>
-          <h3>One home page for all your meetings</h3>
-          <p>Conversations are grouped into areas of work — product, customers, sales and more — each with a dated timeline, decisions and open questions. It updates after every call and runs on-device by default.</p>
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/><path d="M12 18v3"/></svg></div>
+          <h3>Dictate in any app with the Fn key (beta)</h3>
+          <p>Hold Fn, speak, release: your words are transcribed on your Mac and pasted into the app you're in. Optional AI polish tidies filler words and punctuation. It needs Input Monitoring and Accessibility permissions, asked for only when you set the shortcut up.</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15.5" r="4.5"/><path d="M11.2 12.3 20 3.5"/><path d="m16.5 7 2.5 2.5"/><path d="m14.5 9 1.8 1.8"/></svg></div>

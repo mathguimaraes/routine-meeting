@@ -9,7 +9,7 @@
   <meta name="description"
     content="会議を自動検知し、Mac上で録音・文字起こしして、要約とタスクを作成する無料のMacアプリ。ボットもアカウントも不要。" />
   <meta name="keywords"
-    content="会議録音, mac 自動会議録音, ローカル文字起こし, オンデバイス文字起こし, macOS 会議メモ, AI会議要約, ボットなし会議録音, WhisperKit, Zoom 録音 mac, Google Meet 録音 mac, オフライン文字起こし mac" />
+    content="会議録音, mac 自動会議録音, ローカル文字起こし, オンデバイス文字起こし, macOS 会議メモ, AI会議要約, ボットなし会議録音, WhisperKit, Parakeet, 音声入力, Zoom 録音 mac, Google Meet 録音 mac, オフライン文字起こし mac" />
   <meta name="author" content="Matheus Guimarães" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://mathguimaraes.github.io/routine-meeting/ja/" />
@@ -80,9 +80,10 @@
     "featureList": [
       "アプリ非依存の自動会議検知",
       "100%オンデバイスの録音・文字起こし",
+      "Parakeet v3によるオンデバイス文字起こし(Whisperも選択可)",
       "マイクとシステム音声の話者分離",
       "AI要約とアクションアイテム",
-      "すべての会議で議論している内容をまとめるホーム画面",
+      "Fnキーでどのアプリにも音声入力(ベータ)",
       "自分のキーを使用、または完全ローカルAI",
       "アカウント不要、サブスクリプション不要"
     ]
@@ -123,7 +124,7 @@
     </div>
     <p class="hero-meta">無料 · Apple Silicon · macOS 13以降 · アカウント不要</p>
     <div class="hero-shot">
-      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting のメインウィンドウ:会議リスト、週間統計、「今話していること」ホーム画面" fetchpriority="high" />
+      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting のメインウィンドウ:会議リスト、週間統計、最近の会議" fetchpriority="high" />
     </div>
   </header>
 
@@ -141,7 +142,7 @@
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2"/></svg></div>
           <h3>すべてデバイス上で文字起こし</h3>
-          <p>WhisperKitがApple SiliconのNeural Engineで動作。クラウド要約を明示的に有効にしない限り、音声はMacの外に出ません。</p>
+          <p>Parakeet v3 がMac上で動作し、1時間の会議を数分で文字起こしします。Whisperも引き続き選べます。クラウド要約を明示的に有効にしない限り、音声はMacの外に出ません。</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16.5 4.8a3.2 3.2 0 0 1 0 6.4"/><path d="M18.5 14.2A6 6 0 0 1 21 19.5"/></svg></div>
@@ -154,9 +155,9 @@
           <p>どの会議にもタイトル、箇条書きの要約、全文の文字起こしが付きます。ワンクリックのAIツールが、フォローアップメールの下書き、アクションアイテムや重要な決定事項の抽出、自由な質問への回答を、お好みのAIアシスタントで行います。</p>
         </div>
         <div class="card">
-          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="8.5" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="5" rx="1.8"/><rect x="13.5" y="11.5" width="7" height="9" rx="1.8"/><rect x="3.5" y="15" width="7" height="5.5" rx="1.8"/></svg></div>
-          <h3>すべての会議をまとめたホーム画面</h3>
-          <p>会話はプロダクト、顧客、営業などの業務領域ごとに整理され、それぞれに日付つきのタイムライン、決定事項、未解決の質問が並びます。通話のたびに更新され、デフォルトではデバイス上で動作します。</p>
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/><path d="M12 18v3"/></svg></div>
+          <h3>Fnキーでどのアプリにも音声入力(ベータ)</h3>
+          <p>Fnキーを押しながら話して離すと、Mac上で文字起こしされ、使っているアプリに貼り付けられます。AI整形(任意)で言いよどみや句読点を整えます。ショートカットを設定するときにだけ、入力監視とアクセシビリティの権限を求めます。</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15.5" r="4.5"/><path d="M11.2 12.3 20 3.5"/><path d="m16.5 7 2.5 2.5"/><path d="m14.5 9 1.8 1.8"/></svg></div>

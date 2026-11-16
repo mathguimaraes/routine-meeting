@@ -9,7 +9,7 @@
   <meta name="description"
     content="免费 Mac 应用:自动检测会议,在本机录音和转录,并生成摘要和待办事项。无需机器人,无需账号。" />
   <meta name="keywords"
-    content="会议录音, mac 自动会议录音, 本地转录, 设备端转录, macOS 会议笔记, AI 会议摘要, 无机器人会议录音, WhisperKit, Zoom 录音 mac, Google Meet 录音 mac, 离线转录 mac" />
+    content="会议录音, mac 自动会议录音, 本地转录, 设备端转录, macOS 会议笔记, AI 会议摘要, 无机器人会议录音, WhisperKit, Parakeet, 语音输入, Zoom 录音 mac, Google Meet 录音 mac, 离线转录 mac" />
   <meta name="author" content="Matheus Guimarães" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://mathguimaraes.github.io/routine-meeting/zh-CN/" />
@@ -80,9 +80,10 @@
     "featureList": [
       "自动检测会议,不限应用",
       "100% 本地录音与转录",
+      "基于 Parakeet v3 的设备端转录(可选 Whisper)",
       "麦克风与系统音频分离采集",
       "AI 摘要与行动事项",
-      "汇总你在所有会议中讨论内容的首页",
+      "用 Fn 键在任何应用中听写(测试版)",
       "使用自己的密钥或完全本地化 AI",
       "无需账号,无需订阅"
     ]
@@ -123,7 +124,7 @@
     </div>
     <p class="hero-meta">免费 · Apple Silicon · macOS 13 及以上 · 无需账号</p>
     <div class="hero-shot">
-      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting 主窗口:会议列表、每周统计和"你们正在讨论什么"主页" fetchpriority="high" />
+      <img src="../screenshots/app-main.webp?v=2" width="1537" height="1023" alt="Routine Meeting 主窗口:会议列表、每周统计和最近的会议" fetchpriority="high" />
     </div>
   </header>
 
@@ -141,7 +142,7 @@
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2"/></svg></div>
           <h3>完全在设备本地转录</h3>
-          <p>WhisperKit 运行在 Apple Silicon 的神经网络引擎上。除非你明确开启云端摘要,否则音频绝不会离开你的 Mac。</p>
+          <p>Parakeet v3 在你的 Mac 上运行,几分钟即可转录一小时的会议;Whisper 仍可作为选项使用。除非你明确开启云端摘要,否则音频绝不会离开你的 Mac。</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16.5 4.8a3.2 3.2 0 0 1 0 6.4"/><path d="M18.5 14.2A6 6 0 0 1 21 19.5"/></svg></div>
@@ -154,9 +155,9 @@
           <p>每场会议都有标题、要点摘要和完整转录。一键 AI 工具可以起草跟进邮件、提取行动事项和关键决定,或回答你自己的问题——使用你选择的 AI 助手。</p>
         </div>
         <div class="card">
-          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="8.5" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="5" rx="1.8"/><rect x="13.5" y="11.5" width="7" height="9" rx="1.8"/><rect x="3.5" y="15" width="7" height="5.5" rx="1.8"/></svg></div>
-          <h3>所有会议的统一首页</h3>
-          <p>对话按工作领域归类,如产品、客户、销售等,每个领域都有带日期的时间线、决定和未决问题。每次通话后更新,默认在设备本地运行。</p>
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/><path d="M12 18v3"/></svg></div>
+          <h3>用 Fn 键在任何应用中听写(测试版)</h3>
+          <p>按住 Fn 说话,松开后内容会在 Mac 上转录并粘贴到当前应用。可选的 AI 润色会去掉口头禅并整理标点。只有在设置快捷键时才会请求“输入监控”和“辅助功能”权限。</p>
         </div>
         <div class="card">
           <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15.5" r="4.5"/><path d="M11.2 12.3 20 3.5"/><path d="m16.5 7 2.5 2.5"/><path d="m14.5 9 1.8 1.8"/></svg></div>
