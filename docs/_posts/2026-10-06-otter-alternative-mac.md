@@ -85,7 +85,7 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 - **Transcription:** WhisperKit on your Mac's Neural Engine, with your side and the other side transcribed separately and labeled "What you said" and "What others said".
 - **Summaries:** optional. Use a fully local model (no key, no network call), or your own Gemini key, which sends the transcript text, never the audio.
 - **Account and price:** none and free.
-- **Requirements:** Apple Silicon, macOS 13 or later.
+- **Requirements:** Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
   <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
@@ -143,7 +143,7 @@ Not a local option. Per its pricing page, Fathom's free plan includes unlimited 
 | Team sharing and integrations | Yes | No | Export and automations | No | No | No |
 | Compliance report | SOC 2 Type 2, HIPAA | None | None | None | None | None |
 | Platforms | Web, Mac, Windows, iOS, Android, Chrome | Mac | Mac | Mac | Mac | Mac |
-| Mac requirements | macOS 12.3+ (desktop app) | Apple Silicon, macOS 13+ | Not checked | macOS 15+, Apple Silicon | macOS 14.2+, Apple Silicon | macOS 14.4+, Apple silicon or Intel |
+| Mac requirements | macOS 12.3+ (desktop app) | Apple Silicon, macOS 14.2+ | Not checked | macOS 15+, Apple Silicon | macOS 14.2+, Apple Silicon | macOS 14.4+, Apple silicon or Intel |
 
 ## Which should you choose?
 

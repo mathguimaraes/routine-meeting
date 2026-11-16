@@ -62,7 +62,7 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 - **Summaries:** optional. A fully local model, or your own Gemini key (only transcript text is sent, never audio). It also writes a daily recap of tasks across the day's meetings.
 - **Search:** keyword search across meeting titles, summaries, insights and transcripts.
 - **Account and price:** none, and free. No history limit.
-- **Requirements:** Apple Silicon, macOS 13 or later.
+- **Requirements:** Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
   <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">

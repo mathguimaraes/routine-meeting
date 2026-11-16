@@ -6,7 +6,7 @@
 
 **Reuniões acontecem. Anotar não deveria ser trabalho seu.**
 
-[Site](https://mathguimaraes.github.io/routine-meeting/pt-BR/) · [Baixar para macOS](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 13+
+[Site](https://mathguimaraes.github.io/routine-meeting/pt-BR/) · [Baixar para macOS](https://github.com/mathguimaraes/routine-meeting/releases/latest) · Apple Silicon · macOS 14.2+
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)

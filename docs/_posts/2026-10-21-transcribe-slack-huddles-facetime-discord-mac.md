@@ -69,7 +69,7 @@ Recording laws depend on where you and the others are. Many places require every
 ## Limits
 
 - It labels you versus everyone else. It does not name each person in a group call.
-- Mac only, Apple Silicon, macOS 13 or later, public beta.
+- Mac only, Apple Silicon, macOS 14.2 or later, public beta.
 - Audio from another source can look like a call. A WhatsApp voice message, for example, can trigger a false start, because speech with pauses resembles a conversation.
 - Whisper-family models handle clear speech well, but crosstalk, accents and poor connections reduce accuracy.
 - There is no live text on screen during the call; the transcript is produced after it ends.

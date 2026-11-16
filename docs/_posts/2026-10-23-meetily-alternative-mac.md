@@ -43,7 +43,7 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 - **Transcription:** on your Mac with WhisperKit. Your side is labeled "What you said" and everyone else's "What others said".
 - **Summaries:** optional. A fully local model, or your own Gemini key (only transcript text is sent).
 - **Account and price:** none, and free, with no recording limit.
-- **Requirements:** Apple Silicon, macOS 13 or later.
+- **Requirements:** Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
   <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
@@ -106,7 +106,7 @@ Per its site, transcribes fully on the device, supports offline meeting recordin
 
 1. **Copy what you need.** Save notes and transcripts you want to keep before switching.
 2. **Run both for a week.** Keep Meetily while you test an alternative on your own calls.
-3. **Check your OS first.** Biscotti needs macOS 15, Talat macOS 15, Hapi macOS 14, Routine Meeting macOS 13.
+3. **Check your OS first.** Biscotti needs macOS 15, Talat macOS 15, Hapi macOS 14, Routine Meeting macOS 14.2.
 
 For more, see our [Granola alternative guide]({{ '/blog/granola-alternative-mac/' | relative_url }}), [local and offline AI meeting notes]({{ '/blog/local-ai-meeting-notes-mac/' | relative_url }}) and [private meeting transcription]({{ '/blog/private-meeting-transcription-mac/' | relative_url }}).
 

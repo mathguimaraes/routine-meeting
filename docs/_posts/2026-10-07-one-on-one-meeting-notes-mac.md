@@ -57,7 +57,7 @@ A menu-bar app that starts by itself when it hears the pattern of a real call: y
 - **Insights:** an optional pass that first works out what kind of meeting it was (a 1:1, a standup, a client call and so on) and then comments only on what matters for that kind. If the meeting was low stakes, it says there is nothing notable instead of inventing coaching.
 - **Storage:** on your Mac. Audio is deleted after a number of days you choose, but only once a transcript exists. Transcripts and summaries stay.
 - **Account and price:** none, and free.
-- **Requirements:** Apple Silicon, macOS 13 or later.
+- **Requirements:** Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
   <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">

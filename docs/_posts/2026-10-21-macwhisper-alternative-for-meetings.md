@@ -49,7 +49,7 @@ Meetings add three things a file does not: someone has to **start** the recordin
 - **Stop:** by default it ends when the meeting app lets go of the microphone and the system audio has been quiet for about 45 seconds. Auto-end is a setting you can turn off.
 - **Transcript:** WhisperKit on your Mac. Your side is labeled "What you said" and everyone else's "What others said".
 - **Summaries:** optional, from a local model or your own Gemini key (only transcript text is sent).
-- **Cost and requirements:** free, no account, Apple Silicon, macOS 13 or later.
+- **Cost and requirements:** free, no account, Apple Silicon, macOS 14.2 or later.
 
 <figure class="post-figure">
   <img src="{{ '/screenshots/app-main.webp' | relative_url }}" alt="Routine Meeting main window: meeting list, weekly stats and the What you're discussing home page" width="1537" height="1023" loading="lazy" style="width:100%;height:auto;display:block;border-radius:12px">
@@ -78,7 +78,7 @@ Routine Meeting is only for live meetings, so it does not replace MacWhisper's f
 - Public beta and closed source.
 - It separates you from everyone else but does not name each person in a group call.
 - No team sharing, integrations or file import.
-- Apple Silicon and macOS 13 or later only.
+- Apple Silicon and macOS 14.2 or later only.
 
 ## Which should you choose?
 

@@ -37,7 +37,7 @@ If you host your own paid Zoom meetings and are happy with Zoom holding the data
 
 These apps listen to your microphone and to the sound coming out of your Mac, so they hear both sides of the call without joining it.
 
-- **Routine Meeting** (free, no account, Apple Silicon, macOS 13 or later, closed source, public beta): starts by itself when it notices a two-way conversation, whichever app is making the sound, so it also covers Meet, Teams and Slack huddles. WhisperKit transcribes on your Mac. Summaries use a local model or your own Gemini key.
+- **Routine Meeting** (free, no account, Apple Silicon, macOS 14.2 or later, closed source, public beta): starts by itself when it notices a two-way conversation, whichever app is making the sound, so it also covers Meet, Teams and Slack huddles. WhisperKit transcribes on your Mac. Summaries use a local model or your own Gemini key.
 - **MacParakeet** (free, GPL-3.0, macOS 14.2 or later, Apple Silicon): its site has a Zoom recorder page; speech recognition runs on your Mac, and summaries go to the provider you configure.
 - **Whisper Notes** ($14 once on Mac, per its site): on-device transcription with offline meeting recording on the direct-download version.
 - **Granola** (free plan with 30-day history): captures on your Mac but uses third-party transcription providers, so audio leaves your computer.
@@ -83,7 +83,7 @@ Recording laws depend on where you and the other participants are, and many plac
 ## Limits
 
 - Routine Meeting labels you versus everyone else. It does not name each remote participant in a group call.
-- It is Mac only, needs Apple Silicon and macOS 13 or later, and is in public beta.
+- It is Mac only, needs Apple Silicon and macOS 14.2 or later, and is in public beta.
 - Whisper-family models handle clear speech well, but crosstalk, accents and poor connections reduce accuracy.
 - There is no live transcript on screen while the call runs; the text is produced after the meeting.
 
