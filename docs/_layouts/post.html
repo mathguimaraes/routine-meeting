@@ -1,6 +1,20 @@
 ---
 layout: default
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.seo_title | default: page.title | jsonify }},
+  "description": {{ page.description | strip_newlines | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "mainEntityOfPage": "{{ page.url | absolute_url }}",
+  "image": "{{ '/icon.png' | absolute_url }}",
+  "author": { "@type": "Person", "name": {{ site.author | jsonify }} },
+  "publisher": { "@type": "Organization", "name": "Routine Meeting", "url": "{{ '/' | absolute_url }}" }
+}
+</script>
 {% assign cat = page.categories | first %}
 <article class="post">
   <div class="section-inner post-inner">
