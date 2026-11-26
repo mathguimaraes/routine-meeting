@@ -22,3 +22,13 @@ Did: refreshed sitemap lastmod from git history; added BlogPosting JSON-LD to do
 Why: freshness signal and article entity data for AI/search crawlers. Inference: modest effect, low risk.
 Not done: robots.txt (project page path would be ignored by crawlers).
 Next: task 1 and 2; look for live "alternative" threads to draft replies.
+
+## 2026-11-26
+Observed (facts):
+- Repo: 5 stars, 0 forks, 0 open issues, no issues ever filed (GitHub API, 2026-11-26). Latest release still v1.13.0 (2026-11-16). No new commits since 2026-11-25.
+- Live site fetch from sandbox: curl returned 000 again (2026-11-26); site health UNVERIFIED. No Google access; indexing unknown.
+- Attempted to read Fireflies, tl;dv and Fathom pricing pages for task 4 via web-fetch agent: all three failed (permission timeout). No vendor facts obtained. Search-result snippets from third-party "alternatives" sites are not primary sources, so I did not use them.
+Did: skipped task 4 (writing it without primary sources would risk false claims). Instead prepared task 3: .agent/submissions.md (copy for AlternativeTo, Product Hunt, Show HN, MacUpdate; nothing submitted).
+Inference: comparison page can be written once pricing pages are readable or owner pastes their text.
+Next: retry vendor pages next run (or draft the Fireflies/Fathom/tl;dv page from owner-provided text); find live "Granola/Otter alternative" threads for task 2.
+Decisions needed from owner (open): GSC indexing report (task 1); submit the kit (task 3); custom domain (task 5).
