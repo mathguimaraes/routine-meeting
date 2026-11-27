@@ -32,3 +32,14 @@ Did: skipped task 4 (writing it without primary sources would risk false claims)
 Inference: comparison page can be written once pricing pages are readable or owner pastes their text.
 Next: retry vendor pages next run (or draft the Fireflies/Fathom/tl;dv page from owner-provided text); find live "Granola/Otter alternative" threads for task 2.
 Decisions needed from owner (open): GSC indexing report (task 1); submit the kit (task 3); custom domain (task 5).
+
+## 2026-11-27
+Observed (facts):
+- Repo: 5 stars, 0 forks, 0 open issues; latest release v1.13.0 (2026-11-16); last push 2026-11-26 (GitHub API, 2026-11-27).
+- Live site fetch from sandbox: curl 000 again (3rd run); site health UNVERIFIED. No Google access; indexing unknown.
+- WebSearch (not Google) "Routine Meeting Mac meeting recorder mathguimaraes" and Granola-alternative query: Routine Meeting absent from results (2026-11-27). Results included AlternativeTo Granola alternatives pages, Wispr Flow, Fireflies and Circleback comparison pages. WebSearch returns titles/URLs only, no thread content, so no Reddit threads found for task 2.
+- Apple's Voice Memos support page was readable via the web-fetch agent (2026-11-27); Fireflies/Fathom/tl;dv pages were not retried.
+Did: new post docs/_posts/2026-11-27-voice-memos-transcription-vs-meeting-recorder-mac.md (task 4, Apple Notes/Voice Memos part), using only facts read from Apple's page; unknowns (on-device vs cloud, languages, system audio) are stated as "not said". Added to sitemap.
+Why: covers a "does Mac already transcribe?" query class with a primary source. Inference: small, low-risk; effect on citation unknown.
+Next: retry Fireflies/Fathom/tl;dv pages via web-fetch; Krisp page; find live threads (needs a search tool that returns Reddit content).
+Decisions needed from owner (open, unchanged): GSC indexing report (task 1); submit the kit in .agent/submissions.md (task 3); custom domain (task 5).
